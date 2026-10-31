@@ -1,0 +1,2128 @@
+{
+  "id": "194:162",
+  "name": "web",
+  "width": 1920,
+  "height": 32219,
+  "sections": [
+    {
+      "start": 0,
+      "height": 1820,
+      "name": "web-1",
+      "nodes": [
+        {
+          "id": "194:163",
+          "name": "1920x810",
+          "type": "FRAME",
+          "x": 20,
+          "y": 280,
+          "w": 1880,
+          "h": 800,
+          "background": "rgba(194.00000363588333,212.00000256299973,249.00000035762787,0.30000001192092896)",
+          "radius": 0,
+          "kind": "image",
+          "src": "/images/figma-personal/163.png"
+        },
+        {
+          "id": "194:165",
+          "name": "project",
+          "type": "TEXT",
+          "x": 20,
+          "y": 12,
+          "w": 70,
+          "h": 29,
+          "background": "rgba(17.00000088661909,17.00000088661909,17.00000088661909,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "project",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 16,
+              "spacing": -0.05,
+              "line": 1.7999999523162842,
+              "color": "rgba(17.00000088661909,17.00000088661909,17.00000088661909,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:166",
+          "name": "scope",
+          "type": "TEXT",
+          "x": 495,
+          "y": 12,
+          "w": 52,
+          "h": 29,
+          "background": "rgba(17.00000088661909,17.00000088661909,17.00000088661909,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "scope",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 16,
+              "spacing": -0.05,
+              "line": 1.7999999523162842,
+              "color": "rgba(17.00000088661909,17.00000088661909,17.00000088661909,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:167",
+          "name": "PLATFORMS",
+          "type": "TEXT",
+          "x": 970,
+          "y": 12,
+          "w": 93,
+          "h": 29,
+          "background": "rgba(17.00000088661909,17.00000088661909,17.00000088661909,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "PLATFORMS",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 16,
+              "spacing": -0.05,
+              "line": 1.7999999523162842,
+              "color": "rgba(17.00000088661909,17.00000088661909,17.00000088661909,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:168",
+          "name": "period",
+          "type": "TEXT",
+          "x": 1445,
+          "y": 12,
+          "w": 57,
+          "h": 29,
+          "background": "rgba(17.00000088661909,17.00000088661909,17.00000088661909,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "period",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 16,
+              "spacing": -0.05,
+              "line": 1.7999999523162842,
+              "color": "rgba(17.00000088661909,17.00000088661909,17.00000088661909,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:169",
+          "name": "UXUI Design, 3D Visualizing, Motion",
+          "type": "TEXT",
+          "x": 20,
+          "y": 40,
+          "w": 286,
+          "h": 29,
+          "background": "rgba(136.00000709295273,136.00000709295273,136.00000709295273,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "UXUI Design, 3D Visualizing, Motion ",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 16,
+              "spacing": -0.05,
+              "line": 1.7999999523162842,
+              "color": "rgba(136.00000709295273,136.00000709295273,136.00000709295273,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:170",
+          "name": "CROSS-DEVICE MOBILITY EXPERIENCE",
+          "type": "TEXT",
+          "x": 495,
+          "y": 40,
+          "w": 283,
+          "h": 29,
+          "background": "rgba(136.00000709295273,136.00000709295273,136.00000709295273,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "CROSS-DEVICE MOBILITY EXPERIENCE",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 16,
+              "spacing": -0.05,
+              "line": 1.7999999523162842,
+              "color": "rgba(136.00000709295273,136.00000709295273,136.00000709295273,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:171",
+          "name": "MOBILE · DESKTOP · ONBOARD DISPLAY",
+          "type": "TEXT",
+          "x": 970,
+          "y": 40,
+          "w": 295,
+          "h": 29,
+          "background": "rgba(136.00000709295273,136.00000709295273,136.00000709295273,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "MOBILE · DESKTOP · ONBOARD DISPLAY",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 16,
+              "spacing": -0.05,
+              "line": 1.7999999523162842,
+              "color": "rgba(136.00000709295273,136.00000709295273,136.00000709295273,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:172",
+          "name": "August - November 2026",
+          "type": "TEXT",
+          "x": 1445,
+          "y": 40,
+          "w": 201,
+          "h": 29,
+          "background": "rgba(136.00000709295273,136.00000709295273,136.00000709295273,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "August - November 2026 ",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 16,
+              "spacing": -0.05,
+              "line": 1.7999999523162842,
+              "color": "rgba(136.00000709295273,136.00000709295273,136.00000709295273,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:173",
+          "name": "PLEV : CARE IN TRANSIT",
+          "type": "GROUP",
+          "x": 25.699951171875,
+          "y": 183.8759765625,
+          "w": 866.546875,
+          "h": 54.036006927490234,
+          "background": null,
+          "radius": 0,
+          "kind": "image",
+          "src": "/images/figma-personal/173.svg"
+        },
+        {
+          "id": "194:192",
+          "name": "PLEV는 ‘사고 이후를 하나의 흐름으로’ 라는 가치를 바탕으로,  분산된 이륜차 사고 처리와 이동 과정을 PV5를 통해 연결하는 서비스입니다. 현장 조치부터 정비소 이동, 정비 후 자택 이송까지 사고 이후 필요한 과정을 지원합니다. 운전자가 단계마다 다른 업체를 찾고 개별적으로 요청해야 했던 절차를 하나의 플랫폼에서 접수하고 연계하여 일관된 흐름으로 제공합니다. 이를 통해 운전자의 조율 부담을 줄이고 현장 대응부터 정비와 최종 이송까지 모든 단계가 유기적으로 연결되는 서비스 경험을 제안합니다.",
+          "type": "TEXT",
+          "x": 970,
+          "y": 1160,
+          "w": 930,
+          "h": 240,
+          "background": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "PLEV는 ‘사고 이후를 하나의 흐름으로’ 라는 가치를 바탕으로,  분산된 이륜차 사고 처리와 이동 과정을 PV5를 통해 연결하는 서비스입니다. 현장 조치부터 정비소 이동, 정비 후 자택 이송까지 사고 이후 필요한 과정을 지원합니다. 운전자가 단계마다 다른 업체를 찾고 개별적으로 요청해야 했던 절차를 하나의 플랫폼에서 접수하고 연계하여 일관된 흐름으로 제공합니다. 이를 통해 운전자의 조율 부담을 줄이고 현장 대응부터 정비와 최종 이송까지 모든 단계가 유기적으로 연결되는 서비스 경험을 제안합니다.",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": -0.025,
+              "line": 2,
+              "color": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:195",
+          "name": "사고 이후를 하나의 흐름으로",
+          "type": "TEXT",
+          "x": 20,
+          "y": 1160,
+          "w": 252,
+          "h": 112,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "사고 이후를\n하나의 흐름으로",
+              "font": "Archivo",
+              "weight": 700,
+              "size": 40,
+              "spacing": -0.05,
+              "line": 1.399999976158142,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 1820,
+      "height": 933,
+      "name": "web-2",
+      "nodes": [
+        {
+          "id": "194:296",
+          "name": "composite (2)_00000 3",
+          "type": "RECTANGLE",
+          "x": 20,
+          "y": 1820,
+          "w": 1880,
+          "h": 853,
+          "background": null,
+          "radius": 0,
+          "kind": "image",
+          "src": "/images/figma-personal/296.png"
+        }
+      ]
+    },
+    {
+      "start": 2753,
+      "height": 549,
+      "name": "web-3",
+      "nodes": [
+        {
+          "id": "194:265",
+          "name": "사고가 발생하면 이륜차 운전자는 현장 대응부터 정비소 탐색, 수리 견적 확인과 이동 복귀까지 서로 다른 주체와 연락하며 해결 과정을 직접 관리해야 합니다. 사고 상황과 차량 상태를 여러 곳에 반복해서 설명하고, 각 단계의 진행 상황과 다음에 해야 할 일을 개별적으로 확인해야 하는 구조입니다.",
+          "type": "TEXT",
+          "x": 970,
+          "y": 2753,
+          "w": 930,
+          "h": 129,
+          "background": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "사고가 발생하면 이륜차 운전자는 현장 대응부터 정비소 탐색, 수리 견적 확인과 이동 복귀까지 서로 다른 주체와 연락하며 해결 과정을 직접 관리해야 합니다. 사고 상황과 차량 상태를 여러 곳에 반복해서 설명하고, 각 단계의 진행 상황과 다음에 해야 할 일을 개별적으로 확인해야 하는 구조입니다.",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.7999999523162842,
+              "color": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:267",
+          "name": "the ride pauses.",
+          "type": "TEXT",
+          "x": 20,
+          "y": 2753,
+          "w": 257,
+          "h": 132,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "the ride\n pauses.",
+              "font": "Archivo",
+              "weight": 600,
+              "size": 60,
+              "spacing": -0.05,
+              "line": 1.100000023841858,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 3302,
+      "height": 748,
+      "name": "web-4",
+      "nodes": [
+        {
+          "id": "194:240",
+          "name": "적재와 작업을 고려한 넓은 공간 & 자유로운 차량 커스터마이징",
+          "type": "TEXT",
+          "x": 1207,
+          "y": 3344,
+          "w": 379,
+          "h": 68,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "적재와 작업을 고려한 넓은 공간\n& 자유로운 차량 커스터마이징",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.399999976158142,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:243",
+          "name": "실외 V2L 커넥터를 통한 \u2028현장 작업 전원 제공",
+          "type": "TEXT",
+          "x": 1207,
+          "y": 3699,
+          "w": 220,
+          "h": 68,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "실외 V2L 커넥터를 통한 \u2028현장 작업 전원 제공 ",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.399999976158142,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:246",
+          "name": "01",
+          "type": "TEXT",
+          "x": 975,
+          "y": 3344,
+          "w": 25,
+          "h": 34,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "01",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.399999976158142,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:249",
+          "name": "02",
+          "type": "TEXT",
+          "x": 975,
+          "y": 3699,
+          "w": 29,
+          "h": 34,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "02",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.399999976158142,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:252",
+          "name": "작업을 고려한 넓은 카고 공간과, PV5에서 지원하는 자유로운 커스터마징을 활용합니다",
+          "type": "TEXT",
+          "x": 1207,
+          "y": 3450,
+          "w": 693,
+          "h": 86,
+          "background": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "작업을 고려한 넓은 카고 공간과, PV5에서 지원하는\n자유로운 커스터마징을 활용합니다",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.7999999523162842,
+              "color": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:255",
+          "name": "차량의 전원을 활용해 외부 전원이 부족한 현장에서도 필요한 장비를 운용할 수 있는 기반을 마련할 수 있습니다.",
+          "type": "TEXT",
+          "x": 1207,
+          "y": 3805,
+          "w": 693,
+          "h": 86,
+          "background": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "차량의 전원을 활용해 외부 전원이 부족한 현장에서도\n필요한 장비를 운용할 수 있는 기반을 마련할 수 있습니다.",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.7999999523162842,
+              "color": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:258",
+          "name": "Rectangle 240661180",
+          "type": "RECTANGLE",
+          "x": 20,
+          "y": 3302,
+          "w": 1880,
+          "h": 2,
+          "background": "rgba(226.0222989320755,226.0222989320755,226.0222989320755,1)",
+          "radius": 0,
+          "kind": "rule"
+        },
+        {
+          "id": "194:269",
+          "name": "Pv5 Highroof",
+          "type": "TEXT",
+          "x": 20,
+          "y": 3344,
+          "w": 305,
+          "h": 132,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "Pv5\nHighroof",
+              "font": "Archivo",
+              "weight": 600,
+              "size": 60,
+              "spacing": -0.05,
+              "line": 1.100000023841858,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 4050,
+      "height": 1617,
+      "name": "web-5",
+      "nodes": [
+        {
+          "id": "194:272",
+          "name": "Frame 2087331076",
+          "type": "FRAME",
+          "x": 20,
+          "y": 4050,
+          "w": 930,
+          "h": 843.925537109375,
+          "background": null,
+          "radius": 0,
+          "kind": "image",
+          "src": "/images/figma-personal/272.png"
+        },
+        {
+          "id": "194:274",
+          "name": "Frame 2087331077",
+          "type": "FRAME",
+          "x": 969.91796875,
+          "y": 4050,
+          "w": 930.0820922851562,
+          "h": 844,
+          "background": null,
+          "radius": 0,
+          "kind": "image",
+          "src": "/images/figma-personal/274.png"
+        }
+      ]
+    },
+    {
+      "start": 5667,
+      "height": 295,
+      "name": "web-6",
+      "nodes": [
+        {
+          "id": "194:266",
+          "name": "Standard는 가장 범용성 높은 모델로, 경미한 접촉 사고 부터 가벼운 자가 수리까지를 지원하는 베이직 모델입니다. 경사형 리프트와 렌치 스패너 와 같은 기본 공구를 제공합니다. Emergency는 심화된 사고처리를 위해 기본 정비도구를 덜고, 사고 처리를 위한 수직 리프트, 파손 부품 보관함과 흡착 패드 등 전문 장비 탑재합니다. Transport는 예약 정비와 같은 상황을 위한 이동 특화 모델입니다. 도구는 덜어내고 내부 완충 설계를 통해 안정적인 운송을 지원합니다.",
+          "type": "TEXT",
+          "x": 970,
+          "y": 5667,
+          "w": 930,
+          "h": 215,
+          "background": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "Standard는 가장 범용성 높은 모델로, 경미한 접촉 사고 부터 가벼운 자가 수리까지를 지원하는 베이직 모델입니다. 경사형 리프트와 렌치 스패너 와 같은 기본 공구를 제공합니다. Emergency는 심화된 사고처리를 위해 기본 정비도구를 덜고, 사고 처리를 위한 수직 리프트, 파손 부품 보관함과 흡착 패드 등 전문 장비 탑재합니다. Transport는 예약 정비와 같은 상황을 위한 이동 특화 모델입니다. 도구는 덜어내고 내부 완충 설계를 통해 안정적인 운송을 지원합니다.",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.7999999523162842,
+              "color": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:268",
+          "name": "Standard Emergency Transport",
+          "type": "TEXT",
+          "x": 20,
+          "y": 5667,
+          "w": 366,
+          "h": 198,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "Standard\nEmergency\nTransport ",
+              "font": "Archivo",
+              "weight": 600,
+              "size": 60,
+              "spacing": -0.05,
+              "line": 1.100000023841858,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 5962,
+      "height": 1273,
+      "name": "web-7",
+      "nodes": [
+        {
+          "id": "194:271",
+          "name": "image 10326136",
+          "type": "RECTANGLE",
+          "x": 20,
+          "y": 5962,
+          "w": 1880,
+          "h": 853,
+          "background": null,
+          "radius": 0,
+          "kind": "image",
+          "src": "/images/figma-personal/271.png"
+        }
+      ]
+    },
+    {
+      "start": 7235,
+      "height": 209,
+      "name": "web-8",
+      "nodes": [
+        {
+          "id": "194:193",
+          "name": "PLEV의 로고는 서비스 지원 차량인 기아 PV5의 사이드미러 형태에서 영감을 받아 제작되었습니다. 주변을 살피고 위험을 미리 알아차리도록 돕는 사이드미러의 역할을 바탕으로, 사용자의 이동을 세심하게 살피고 안전한 운송을 지원하는 서비스의 지향점을 담았습니다.",
+          "type": "TEXT",
+          "x": 970,
+          "y": 7235,
+          "w": 930,
+          "h": 129,
+          "background": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "PLEV의 로고는 서비스 지원 차량인 기아 PV5의 사이드미러 형태에서 영감을 받아 제작되었습니다. 주변을 살피고 위험을 미리 알아차리도록 돕는 사이드미러의 역할을 바탕으로, 사용자의 이동을 세심하게 살피고 안전한 운송을 지원하는 서비스의 지향점을 담았습니다.",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.7999999523162842,
+              "color": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:194",
+          "name": "THE PLEV\u2028IDENTITY",
+          "type": "TEXT",
+          "x": 20,
+          "y": 7235,
+          "w": 268,
+          "h": 132,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "THE PLEV\u2028IDENTITY",
+              "font": "Archivo",
+              "weight": 600,
+              "size": 60,
+              "spacing": -0.05,
+              "line": 1.100000023841858,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 7444,
+      "height": 873,
+      "name": "web-9",
+      "nodes": [
+        {
+          "id": "194:261",
+          "name": "Frame 2087331062",
+          "type": "FRAME",
+          "x": 20,
+          "y": 7444,
+          "w": 1880,
+          "h": 853,
+          "background": "rgba(255,255,255,1)",
+          "radius": 0,
+          "kind": "image",
+          "src": "/images/figma-personal/261.png"
+        }
+      ]
+    },
+    {
+      "start": 8317,
+      "height": 950,
+      "name": "web-10",
+      "nodes": [
+        {
+          "id": "194:233",
+          "name": "2_00194 1",
+          "type": "RECTANGLE",
+          "x": 970,
+          "y": 8317,
+          "w": 930,
+          "h": 930,
+          "background": null,
+          "radius": 0,
+          "kind": "image",
+          "src": "/images/figma-personal/233.png"
+        },
+        {
+          "id": "194:234",
+          "name": "1_00194 1",
+          "type": "RECTANGLE",
+          "x": 20,
+          "y": 8317,
+          "w": 930,
+          "h": 930,
+          "background": null,
+          "radius": 0,
+          "kind": "image",
+          "src": "/images/figma-personal/234.png"
+        }
+      ]
+    },
+    {
+      "start": 9267,
+      "height": 950,
+      "name": "web-11",
+      "nodes": [
+        {
+          "id": "194:235",
+          "name": "dddzcx_00194 1",
+          "type": "RECTANGLE",
+          "x": 20,
+          "y": 9267,
+          "w": 1880,
+          "h": 930,
+          "background": null,
+          "radius": 0,
+          "kind": "image",
+          "src": "/images/figma-personal/235.png"
+        }
+      ]
+    },
+    {
+      "start": 10217,
+      "height": 1543,
+      "name": "서비스 강점",
+      "nodes": [
+        {
+          "id": "194:276",
+          "name": "Group 2085674508",
+          "type": "GROUP",
+          "x": 20,
+          "y": 10217,
+          "w": 1880.000244140625,
+          "h": 1122.8463134765625,
+          "background": null,
+          "radius": 0,
+          "kind": "image",
+          "src": "/images/figma-personal/276.png"
+        },
+        {
+          "id": "194:280",
+          "name": "Rectangle 240661179",
+          "type": "RECTANGLE",
+          "x": 20,
+          "y": 10217,
+          "w": 1880,
+          "h": 1123,
+          "background": "rgba(0,0,0,0.4000000059604645)",
+          "radius": 0,
+          "kind": "rule"
+        },
+        {
+          "id": "194:281",
+          "name": "Rectangle 240661176",
+          "type": "RECTANGLE",
+          "x": 646.7499999786178,
+          "y": 10216.999999957316,
+          "w": 1.0000000213822204,
+          "h": 1123.0000000426844,
+          "background": "rgba(121.50907427072525,121.50907427072525,121.50907427072525,1)",
+          "radius": 0,
+          "kind": "rule"
+        },
+        {
+          "id": "194:282",
+          "name": "Rectangle 240661177",
+          "type": "RECTANGLE",
+          "x": 1272.9999999786178,
+          "y": 10215.999999957316,
+          "w": 1.0000000213822204,
+          "h": 1123.0000000426844,
+          "background": "rgba(121.50907427072525,121.50907427072525,121.50907427072525,1)",
+          "radius": 0,
+          "kind": "rule"
+        },
+        {
+          "id": "194:283",
+          "name": "Intergration",
+          "type": "TEXT",
+          "x": 158,
+          "y": 10337,
+          "w": 351,
+          "h": 55,
+          "background": "rgba(250.00000029802322,250.00000029802322,250.00000029802322,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "Intergration",
+              "font": "Archivo",
+              "weight": 600,
+              "size": 50,
+              "spacing": -0.05,
+              "line": 1.100000023841858,
+              "color": "rgba(250.00000029802322,250.00000029802322,250.00000029802322,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:284",
+          "name": "consistency",
+          "type": "TEXT",
+          "x": 785,
+          "y": 10337,
+          "w": 339,
+          "h": 55,
+          "background": "rgba(250.00000029802322,250.00000029802322,250.00000029802322,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "consistency",
+              "font": "Archivo",
+              "weight": 600,
+              "size": 50,
+              "spacing": -0.05,
+              "line": 1.100000023841858,
+              "color": "rgba(250.00000029802322,250.00000029802322,250.00000029802322,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:285",
+          "name": "usability",
+          "type": "TEXT",
+          "x": 1467,
+          "y": 10337,
+          "w": 241,
+          "h": 55,
+          "background": "rgba(250.00000029802322,250.00000029802322,250.00000029802322,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "usability",
+              "font": "Archivo",
+              "weight": 600,
+              "size": 50,
+              "spacing": -0.05,
+              "line": 1.100000023841858,
+              "color": "rgba(250.00000029802322,250.00000029802322,250.00000029802322,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:286",
+          "name": "사고 접수부터 운송, 정비, 복귀까지 나뉘어 있던 업무와 정보를 하나의 서비스 흐름으로 연결합니다.",
+          "type": "TEXT",
+          "x": 93,
+          "y": 11164,
+          "w": 481,
+          "h": 86,
+          "background": "rgba(255,255,255,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "center",
+          "segments": [
+            {
+              "text": "사고 접수부터 운송, 정비, 복귀까지 나뉘어 있던\n업무와 정보를 하나의 서비스 흐름으로 연결합니다.",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": -0.03,
+              "line": 1.7999999523162842,
+              "color": "rgba(255,255,255,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:287",
+          "name": "화면의 역할에 맞춰 UI를 구성하되, 서비스 상태와 정보를 일관된 기준으로 전달합니다.",
+          "type": "TEXT",
+          "x": 720,
+          "y": 11164,
+          "w": 481,
+          "h": 86,
+          "background": "rgba(255,255,255,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "center",
+          "segments": [
+            {
+              "text": "화면의 역할에 맞춰 UI를 구성하되, 서비스\n상태와 정보를 일관된 기준으로 전달합니다.",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": -0.03,
+              "line": 1.7999999523162842,
+              "color": "rgba(255,255,255,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:288",
+          "name": "반복적인 조율의 부담을 줄이고, 필요한 정보를 제때 제공합니다.",
+          "type": "TEXT",
+          "x": 1347,
+          "y": 11164,
+          "w": 481,
+          "h": 86,
+          "background": "rgba(255,255,255,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "center",
+          "segments": [
+            {
+              "text": "반복적인 조율의 부담을 줄이고,\n필요한 정보를 제때 제공합니다.",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": -0.03,
+              "line": 1.7999999523162842,
+              "color": "rgba(255,255,255,1)",
+              "uppercase": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 11760,
+      "height": 920,
+      "name": "web-13",
+      "nodes": [
+        {
+          "id": "194:196",
+          "name": "CONNECT & ASSIST",
+          "type": "TEXT",
+          "x": 20,
+          "y": 11760,
+          "w": 280,
+          "h": 132,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "CONNECT\n& ASSIST ",
+              "font": "Archivo",
+              "weight": 600,
+              "size": 60,
+              "spacing": -0.05,
+              "line": 1.100000023841858,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:197",
+          "name": "호출부터 접수까지 간단히",
+          "type": "TEXT",
+          "x": 1207,
+          "y": 11974,
+          "w": 228,
+          "h": 34,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "호출부터 접수까지 간단히",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.399999976158142,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:198",
+          "name": "이동은 신속하고 안전하게",
+          "type": "TEXT",
+          "x": 1207,
+          "y": 12277,
+          "w": 228,
+          "h": 34,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "이동은 신속하고 안전하게",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.399999976158142,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:199",
+          "name": "01",
+          "type": "TEXT",
+          "x": 975,
+          "y": 11974,
+          "w": 25,
+          "h": 34,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "01",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.399999976158142,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:200",
+          "name": "02",
+          "type": "TEXT",
+          "x": 975,
+          "y": 12277,
+          "w": 29,
+          "h": 34,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "02",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.399999976158142,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:201",
+          "name": "모바일 어플리케이션으로 사용자가 등록한 모델과 호환되는 PV5를 호출합니다. 위치 기반으로 가장 가까운 차량 차고지에서 출발하며, 호출 현장까지의 도달 현황을 실시간으로 확인할 수 있습니다.",
+          "type": "TEXT",
+          "x": 1207,
+          "y": 12028,
+          "w": 693,
+          "h": 129,
+          "background": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "모바일 어플리케이션으로 사용자가 등록한 모델과 호환되는 PV5를 호출합니다. 위치 기반으로 가장 가까운 차량 차고지에서 출발하며, 호출 현장까지의 도달 현황을 실시간으로 확인할 수 있습니다. ",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.7999999523162842,
+              "color": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:203",
+          "name": "PV5 도착 후 QR 인증을 통해 차량과 연결하고 내부 장비를 이용하여 간단한 작업을 진행합니다. 조치가 필요한 경우 정비소를 선택하고, 전용 리프트와 전면 고정 장치로 손상 없이 운송합니다.",
+          "type": "TEXT",
+          "x": 1207,
+          "y": 12331,
+          "w": 693,
+          "h": 129,
+          "background": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "PV5 도착 후 QR 인증을 통해 차량과 연결하고 내부 장비를 이용하여 간단한 작업을 진행합니다. 조치가 필요한 경우 정비소를 선택하고, 전용 리프트와 전면 고정 장치로 손상 없이 운송합니다.",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.7999999523162842,
+              "color": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:229",
+          "name": "Rectangle 240661163",
+          "type": "RECTANGLE",
+          "x": 20,
+          "y": 11932,
+          "w": 1880,
+          "h": 2,
+          "background": "rgba(226.0222989320755,226.0222989320755,226.0222989320755,1)",
+          "radius": 0,
+          "kind": "rule"
+        },
+        {
+          "id": "194:230",
+          "name": "Rectangle 240661164",
+          "type": "RECTANGLE",
+          "x": 950.0000000507007,
+          "y": 11932.99999991258,
+          "w": 1.9999999492993084,
+          "h": 727.0000000874206,
+          "background": "rgba(226.0222989320755,226.0222989320755,226.0222989320755,1)",
+          "radius": 0,
+          "kind": "rule"
+        }
+      ]
+    },
+    {
+      "start": 12680,
+      "height": 1078,
+      "name": "web-14",
+      "nodes": [
+        {
+          "id": "194:204",
+          "name": "image 10325450",
+          "type": "RECTANGLE",
+          "x": 20,
+          "y": 12680,
+          "w": 1880,
+          "h": 1058,
+          "background": null,
+          "radius": 0,
+          "kind": "image",
+          "src": "/images/figma-personal/204.png"
+        }
+      ]
+    },
+    {
+      "start": 13758,
+      "height": 1750,
+      "name": "web-15",
+      "nodes": [
+        {
+          "id": "194:289",
+          "name": "Frame 2087331080",
+          "type": "FRAME",
+          "x": 20,
+          "y": 13758,
+          "w": 1880,
+          "h": 1253,
+          "background": null,
+          "radius": 0,
+          "kind": "image",
+          "src": "/images/figma-personal/289.png"
+        }
+      ]
+    },
+    {
+      "start": 15508,
+      "height": 1256,
+      "name": "web-16",
+      "nodes": [
+        {
+          "id": "194:205",
+          "name": "정비소 이동을 위한 차량 호출과, 결제까지 한번에 진행합니다. 도착한 전문 차량을 활용하여, 직접 자가 조치를 수행하거나 정비소로 이동할 수 있습니다.",
+          "type": "TEXT",
+          "x": 139,
+          "y": 15620,
+          "w": 718,
+          "h": 86,
+          "background": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "정비소 이동을 위한 차량 호출과, 결제까지 한번에 진행합니다. 도착한 전문\n차량을 활용하여, 직접 자가 조치를 수행하거나 정비소로 이동할 수 있습니다.",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.7999999523162842,
+              "color": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:206",
+          "name": "접수부터 정비 예약까지 한 번의 흐름으로 연결합니다",
+          "type": "TEXT",
+          "x": 139,
+          "y": 15512,
+          "w": 252,
+          "h": 68,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "접수부터 정비 예약까지\n한 번의 흐름으로 연결합니다",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.399999976158142,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:207",
+          "name": "Frame 2087331050",
+          "type": "FRAME",
+          "x": 20,
+          "y": 15508,
+          "w": 88,
+          "h": 72,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "badge",
+          "text": "01"
+        },
+        {
+          "id": "194:292",
+          "name": "image 10326141",
+          "type": "RECTANGLE",
+          "x": 139,
+          "y": 15825,
+          "w": 811,
+          "h": 693,
+          "background": null,
+          "radius": 0,
+          "kind": "image",
+          "src": "/images/figma-personal/292.png"
+        }
+      ]
+    },
+    {
+      "start": 16764,
+      "height": 1254,
+      "name": "web-17",
+      "nodes": [
+        {
+          "id": "194:209",
+          "name": "결제 완료 후, 실시간으로 이동 현황을 받아볼 수 있으며 선택적으로 정보 추가를 통해 정비소의 준비 시간을 단축시킬 수 있습니다.",
+          "type": "TEXT",
+          "x": 970,
+          "y": 16874,
+          "w": 634,
+          "h": 86,
+          "background": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "결제 완료 후, 실시간으로 이동 현황을 받아볼 수 있으며 선택적으로 정보 추가를 통해 정비소의 준비 시간을 단축시킬 수 있습니다.",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.7999999523162842,
+              "color": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:210",
+          "name": "실시간 이동을 확인하고, 점검을 위한 정보를 등록하여 정비를 준비하는 시간을 단축합니다",
+          "type": "TEXT",
+          "x": 970,
+          "y": 16766,
+          "w": 395,
+          "h": 68,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "실시간 이동을 확인하고, 점검을 위한 정보를\n등록하여 정비를 준비하는 시간을 단축합니다",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.399999976158142,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:211",
+          "name": "Frame 2087331058",
+          "type": "FRAME",
+          "x": 851,
+          "y": 16764,
+          "w": 88,
+          "h": 72,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "badge",
+          "text": "02"
+        },
+        {
+          "id": "194:291",
+          "name": "image 10326142",
+          "type": "RECTANGLE",
+          "x": 970,
+          "y": 17110,
+          "w": 811,
+          "h": 714,
+          "background": null,
+          "radius": 0,
+          "kind": "image",
+          "src": "/images/figma-personal/291.png"
+        }
+      ]
+    },
+    {
+      "start": 18018,
+      "height": 1292,
+      "name": "web-18",
+      "nodes": [
+        {
+          "id": "194:213",
+          "name": "Frame 2087331005",
+          "type": "FRAME",
+          "x": 138,
+          "y": 18018,
+          "w": 573,
+          "h": 872,
+          "background": "rgba(0,0,0,1)",
+          "radius": 50,
+          "kind": "media"
+        },
+        {
+          "id": "194:214",
+          "name": "경미한 사고의 경우 사용자는 후면 인터페이스를 통해 스스로 조치를 진행하거나 전문적인 수리를 위해, 정비소를 선택하고 적재하는 과정을 진행합니다. 이후, pv5의 자율주행을 통해 정비소로 이동합니다.",
+          "type": "TEXT",
+          "x": 970,
+          "y": 18208,
+          "w": 635,
+          "h": 129,
+          "background": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "경미한 사고의 경우 사용자는 후면 인터페이스를 통해 스스로 조치를 진행하거나 전문적인 수리를 위해, 정비소를 선택하고 적재하는 과정을 진행합니다. 이후, pv5의 자율주행을 통해 정비소로 이동합니다.",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.7999999523162842,
+              "color": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:215",
+          "name": "사용자는 자가 조치를 수행하거나, 적재 및 정비소 이동을 수행합니다",
+          "type": "TEXT",
+          "x": 970,
+          "y": 18100,
+          "w": 297,
+          "h": 68,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "사용자는 자가 조치를 수행하거나,\n적재 및 정비소 이동을 수행합니다",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.399999976158142,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:216",
+          "name": "Frame 2087331059",
+          "type": "FRAME",
+          "x": 851,
+          "y": 18098,
+          "w": 88,
+          "h": 72,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "badge",
+          "text": "03"
+        }
+      ]
+    },
+    {
+      "start": 19310,
+      "height": 1673,
+      "name": "web-19",
+      "nodes": [
+        {
+          "id": "194:218",
+          "name": "TR02 image 10325405 2",
+          "type": "RECTANGLE",
+          "x": 20,
+          "y": 19310,
+          "w": 1880,
+          "h": 1253,
+          "background": null,
+          "radius": 0,
+          "kind": "image",
+          "src": "/images/figma-personal/218.png"
+        }
+      ]
+    },
+    {
+      "start": 20983,
+      "height": 920,
+      "name": "web-20",
+      "nodes": [
+        {
+          "id": "194:236",
+          "name": "restore & return",
+          "type": "TEXT",
+          "x": 20,
+          "y": 20983,
+          "w": 286,
+          "h": 132,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "restore\n& return",
+              "font": "Archivo",
+              "weight": 600,
+              "size": 60,
+              "spacing": -0.05,
+              "line": 1.100000023841858,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:238",
+          "name": "바로 이어지는 정비 연계",
+          "type": "TEXT",
+          "x": 1207,
+          "y": 21197,
+          "w": 212,
+          "h": 34,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "바로 이어지는 정비 연계",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.399999976158142,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:241",
+          "name": "원하는 방식으로 복귀",
+          "type": "TEXT",
+          "x": 1207,
+          "y": 21500,
+          "w": 188,
+          "h": 34,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "원하는 방식으로 복귀",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.399999976158142,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:244",
+          "name": "01",
+          "type": "TEXT",
+          "x": 975,
+          "y": 21197,
+          "w": 25,
+          "h": 34,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "01",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.399999976158142,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:247",
+          "name": "02",
+          "type": "TEXT",
+          "x": 975,
+          "y": 21500,
+          "w": 29,
+          "h": 34,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "02",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.399999976158142,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:250",
+          "name": "접수 과정에서 전달된 사고 정보와 차량 정보를 정비소에 미리 공유합니다.\u2028정비소는 차량이 도착하기 전 필요한 작업을 준비하고, 입고 이후 진단 및 정비를 보다 신속하게 진행합니다.",
+          "type": "TEXT",
+          "x": 1207,
+          "y": 21251,
+          "w": 693,
+          "h": 129,
+          "background": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "접수 과정에서 전달된 사고 정보와 차량 정보를 정비소에 미리 공유합니다.\u2028정비소는 차량이 도착하기 전 필요한 작업을 준비하고,  입고 이후 진단 및 정비를 보다 신속하게 진행합니다.",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.7999999523162842,
+              "color": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:253",
+          "name": "정비가 완료된 후, 사용자의 일정에 따라 PV5 원격 복귀와 직접 수령 중 원하는 과정을 선택할 수 있습니다. 상황에 맞는 복귀 방식을 제공하여 정비 이후의 과정까지 자연스럽게 연결합니다.",
+          "type": "TEXT",
+          "x": 1207,
+          "y": 21554,
+          "w": 693,
+          "h": 129,
+          "background": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "정비가 완료된 후, 사용자의 일정에 따라 PV5 원격 복귀와 직접 수령 중 원하는 과정을 선택할 수 있습니다. 상황에 맞는 복귀 방식을 제공하여 정비 이후의 과정까지 자연스럽게 연결합니다.",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.7999999523162842,
+              "color": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:256",
+          "name": "Rectangle 240661165",
+          "type": "RECTANGLE",
+          "x": 20,
+          "y": 21155,
+          "w": 1880,
+          "h": 2,
+          "background": "rgba(226.0222989320755,226.0222989320755,226.0222989320755,1)",
+          "radius": 0,
+          "kind": "rule"
+        },
+        {
+          "id": "194:259",
+          "name": "Rectangle 240661166",
+          "type": "RECTANGLE",
+          "x": 950.0000000507007,
+          "y": 21155.99999991258,
+          "w": 1.9999999492993084,
+          "h": 727.0000000874206,
+          "background": "rgba(226.0222989320755,226.0222989320755,226.0222989320755,1)",
+          "radius": 0,
+          "kind": "rule"
+        }
+      ]
+    },
+    {
+      "start": 21903,
+      "height": 1078,
+      "name": "web-21",
+      "nodes": [
+        {
+          "id": "194:219",
+          "name": "1920x810",
+          "type": "FRAME",
+          "x": 20,
+          "y": 21903,
+          "w": 1880,
+          "h": 1058,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "media"
+        }
+      ]
+    },
+    {
+      "start": 22981,
+      "height": 1673,
+      "name": "web-22",
+      "nodes": [
+        {
+          "id": "194:293",
+          "name": "image 10326140",
+          "type": "RECTANGLE",
+          "x": 20,
+          "y": 22981,
+          "w": 1880,
+          "h": 1253,
+          "background": null,
+          "radius": 0,
+          "kind": "image",
+          "src": "/images/figma-personal/293.png"
+        }
+      ]
+    },
+    {
+      "start": 24654,
+      "height": 1249,
+      "name": "web-23",
+      "nodes": [
+        {
+          "id": "194:221",
+          "name": "정비소의 견적, 작업 내역과 같은 정보를 타임라인의 형태로 사용자의 모바일 디바이스에서 확인할 수 있습니다.",
+          "type": "TEXT",
+          "x": 258,
+          "y": 24764,
+          "w": 573,
+          "h": 86,
+          "background": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "정비소의 견적, 작업 내역과 같은 정보를 타임라인의 형태로 사용자의 모바일 디바이스에서 확인할 수 있습니다.",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.7999999523162842,
+              "color": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:222",
+          "name": "정비 내역과 실시간 진행 상황을 모바일로 확인하고 승인합니다",
+          "type": "TEXT",
+          "x": 258,
+          "y": 24656,
+          "w": 276,
+          "h": 68,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "정비 내역과 실시간 진행 상황을\n모바일로 확인하고 승인합니다",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.399999976158142,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:223",
+          "name": "Frame 2087331060",
+          "type": "FRAME",
+          "x": 139,
+          "y": 24654,
+          "w": 88,
+          "h": 72,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "badge",
+          "text": "01"
+        },
+        {
+          "id": "194:294",
+          "name": "image 10326138",
+          "type": "RECTANGLE",
+          "x": 257,
+          "y": 24968,
+          "w": 811,
+          "h": 695,
+          "background": null,
+          "radius": 0,
+          "kind": "image",
+          "src": "/images/figma-personal/294.png"
+        }
+      ]
+    },
+    {
+      "start": 25903,
+      "height": 1673,
+      "name": "web-24",
+      "nodes": [
+        {
+          "id": "194:264",
+          "name": "BL48 p2 1",
+          "type": "RECTANGLE",
+          "x": 20,
+          "y": 25903,
+          "w": 1880,
+          "h": 1253,
+          "background": null,
+          "radius": 0,
+          "kind": "image",
+          "src": "/images/figma-personal/264.png"
+        }
+      ]
+    },
+    {
+      "start": 27576,
+      "height": 920,
+      "name": "web-25",
+      "nodes": [
+        {
+          "id": "194:237",
+          "name": "Additional Services",
+          "type": "TEXT",
+          "x": 20,
+          "y": 27576,
+          "w": 342,
+          "h": 132,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "Additional\nServices",
+              "font": "Archivo",
+              "weight": 600,
+              "size": 60,
+              "spacing": -0.05,
+              "line": 1.100000023841858,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:239",
+          "name": "긴급 사고 접수",
+          "type": "TEXT",
+          "x": 1207,
+          "y": 27790,
+          "w": 129,
+          "h": 34,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "긴급 사고 접수",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.399999976158142,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:242",
+          "name": "정비소 점검 예약",
+          "type": "TEXT",
+          "x": 1207,
+          "y": 28093,
+          "w": 149,
+          "h": 34,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "정비소 점검 예약",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.399999976158142,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:245",
+          "name": "01",
+          "type": "TEXT",
+          "x": 975,
+          "y": 27790,
+          "w": 25,
+          "h": 34,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "01",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.399999976158142,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:248",
+          "name": "02",
+          "type": "TEXT",
+          "x": 975,
+          "y": 28093,
+          "w": 29,
+          "h": 34,
+          "background": "rgba(0,0,0,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "02",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.399999976158142,
+              "color": "rgba(0,0,0,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:251",
+          "name": "위급한 사고의 처리를 위해 긴급 사고 접수 기능을 제공합니다. 결제, 차량선택과 같은 과정을 생략하며, 사용자의 위치로 즉시 출동을 진행합니다.",
+          "type": "TEXT",
+          "x": 1207,
+          "y": 27844,
+          "w": 693,
+          "h": 86,
+          "background": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "위급한 사고의 처리를 위해 긴급 사고 접수 기능을 제공합니다. 결제, 차량선택과 같은 과정을 생략하며, 사용자의 위치로 즉시 출동을 진행합니다.",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.7999999523162842,
+              "color": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:254",
+          "name": "검색바를 활용하여, 원하는 정비소의 점검과 운송 예약을 진행합니다. 이동 특화 모델을 이용하여, 번거로운 이동과 픽업을 지원합니다.",
+          "type": "TEXT",
+          "x": 1207,
+          "y": 28147,
+          "w": 693,
+          "h": 86,
+          "background": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+          "radius": 0,
+          "kind": "text",
+          "align": "left",
+          "segments": [
+            {
+              "text": "검색바를 활용하여, 원하는 정비소의 점검과 운송 예약을 진행합니다.\n이동 특화 모델을 이용하여, 번거로운 이동과 픽업을 지원합니다.",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.7999999523162842,
+              "color": "rgba(102.99513772130013,102.99513772130013,102.99513772130013,1)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "194:257",
+          "name": "Rectangle 240661181",
+          "type": "RECTANGLE",
+          "x": 20,
+          "y": 27748,
+          "w": 1880,
+          "h": 2,
+          "background": "rgba(226.0222989320755,226.0222989320755,226.0222989320755,1)",
+          "radius": 0,
+          "kind": "rule"
+        },
+        {
+          "id": "194:260",
+          "name": "Rectangle 240661182",
+          "type": "RECTANGLE",
+          "x": 950.0000000507007,
+          "y": 27748.99999991258,
+          "w": 1.9999999492993084,
+          "h": 727.0000000874206,
+          "background": "rgba(226.0222989320755,226.0222989320755,226.0222989320755,1)",
+          "radius": 0,
+          "kind": "rule"
+        }
+      ]
+    },
+    {
+      "start": 28496,
+      "height": 1003,
+      "name": "web-26",
+      "nodes": [
+        {
+          "id": "194:227",
+          "name": "image 10325378",
+          "type": "RECTANGLE",
+          "x": 20,
+          "y": 28496,
+          "w": 1880,
+          "h": 983,
+          "background": null,
+          "radius": 0,
+          "kind": "image",
+          "src": "/images/figma-personal/227.png"
+        }
+      ]
+    },
+    {
+      "start": 29499,
+      "height": 2720,
+      "name": "web-27",
+      "nodes": [
+        {
+          "id": "194:225",
+          "name": "Frame 2087331037",
+          "type": "FRAME",
+          "x": 970,
+          "y": 29499,
+          "w": 930,
+          "h": 930,
+          "background": "rgba(237.61625200510025,237.61625200510025,237.61625200510025,1)",
+          "radius": 0,
+          "kind": "image",
+          "src": "/images/figma-personal/225.png"
+        },
+        {
+          "id": "194:228",
+          "name": "1920x810",
+          "type": "FRAME",
+          "x": 20,
+          "y": 29499,
+          "w": 930,
+          "h": 930,
+          "background": "rgba(237.61625200510025,237.61625200510025,237.61625200510025,1)",
+          "radius": 0,
+          "kind": "media"
+        }
+      ]
+    }
+  ]
+}

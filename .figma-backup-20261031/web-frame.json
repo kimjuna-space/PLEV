@@ -1,0 +1,1354 @@
+{
+  "name": "web",
+  "id": "2892:873",
+  "width": 1920,
+  "height": 29007,
+  "sections": [
+    {
+      "start": 0,
+      "height": 1820,
+      "nodes": [
+        {
+          "id": "2892:961",
+          "x": 20,
+          "y": 12,
+          "w": 70,
+          "h": 29,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "project",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 16,
+              "spacing": -0.05,
+              "line": 1.8,
+              "color": "rgb(103 103 103)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:962",
+          "x": 495,
+          "y": 12,
+          "w": 54,
+          "h": 29,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "scope",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 16,
+              "spacing": -0.05,
+              "line": 1.8,
+              "color": "rgb(103 103 103)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:963",
+          "x": 970,
+          "y": 12,
+          "w": 93,
+          "h": 29,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "PLATFORMS",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 16,
+              "spacing": -0.05,
+              "line": 1.8,
+              "color": "rgb(103 103 103)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:964",
+          "x": 1445,
+          "y": 12,
+          "w": 57,
+          "h": 29,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "period",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 16,
+              "spacing": -0.05,
+              "line": 1.8,
+              "color": "rgb(103 103 103)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:965",
+          "x": 20,
+          "y": 40,
+          "w": 286,
+          "h": 29,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "UXUI Design, 3D Visualizing, Motion ",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 16,
+              "spacing": -0.05,
+              "line": 1.8,
+              "color": "rgb(0 0 0)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:966",
+          "x": 495,
+          "y": 40,
+          "w": 298,
+          "h": 29,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "CROSS-DEVICE MOBILITY EXPERIENCE",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 16,
+              "spacing": -0.05,
+              "line": 1.8,
+              "color": "rgb(0 0 0)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:967",
+          "x": 970,
+          "y": 40,
+          "w": 295,
+          "h": 29,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "MOBILE · DESKTOP · ONBOARD DISPLAY",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 16,
+              "spacing": -0.05,
+              "line": 1.8,
+              "color": "rgb(0 0 0)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:968",
+          "x": 1445,
+          "y": 40,
+          "w": 201,
+          "h": 29,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "August - November 2026 ",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 16,
+              "spacing": -0.05,
+              "line": 1.8,
+              "color": "rgb(0 0 0)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:969",
+          "x": 20,
+          "y": 143,
+          "w": 875,
+          "h": 137,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "PLEV : CARE IN TRANSIT",
+              "font": "Archivo",
+              "weight": 800,
+              "size": 76,
+              "spacing": -0.05,
+              "line": 1.8,
+              "color": "rgb(0 0 0)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:959",
+          "x": 20,
+          "y": 280,
+          "w": 1880,
+          "h": 800,
+          "kind": "media",
+          "radius": 0,
+          "background": "#000",
+          "label": ""
+        },
+        {
+          "id": "2892:1044",
+          "x": 20,
+          "y": 1160,
+          "w": 252,
+          "h": 112,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "사고 이후를\n하나의 흐름으로",
+              "font": "Archivo",
+              "weight": 700,
+              "size": 40,
+              "spacing": -0.05,
+              "line": 1.4,
+              "color": "rgb(0 0 0)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:972",
+          "x": 970,
+          "y": 1160,
+          "w": 930,
+          "h": 240,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "PLEV는 ‘사고 이후를 하나의 흐름으로’ 라는 가치를 바탕으로,  분산된 이륜차 사고 처리와 이동 과정을 PV5를 통해 연결하는 서비스입니다. 현장 조치부터 정비소 이동, 정비 후 자택 이송까지 사고 이후 필요한 과정을 지원합니다. 운전자가 단계마다 다른 업체를 찾고 개별적으로 요청해야 했던 절차를 하나의 플랫폼에서 접수하고 연계하여 일관된 흐름으로 제공합니다. 이를 통해 운전자의 조율 부담을 줄이고 현장 대응부터 정비와 최종 이송까지 모든 단계가 유기적으로 연결되는 서비스 경험을 제안합니다.",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": -0.025,
+              "line": 2,
+              "color": "rgb(103 103 103)",
+              "uppercase": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 1820,
+      "height": 1803,
+      "nodes": [
+        {
+          "id": "2892:973",
+          "x": 20,
+          "y": 1820,
+          "w": 1880,
+          "h": 1253,
+          "kind": "media",
+          "radius": 0,
+          "background": "#000",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "start": 3623,
+      "height": 209,
+      "nodes": [
+        {
+          "id": "2919:616",
+          "x": 20,
+          "y": 3623,
+          "w": 257,
+          "h": 132,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "the ride\n pauses.",
+              "font": "Archivo",
+              "weight": 600,
+              "size": 60,
+              "spacing": -0.05,
+              "line": 1.1,
+              "color": "rgb(0 0 0)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2919:614",
+          "x": 970,
+          "y": 3623,
+          "w": 930,
+          "h": 129,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "사고가 발생하면 이륜차 운전자는 현장 대응부터 정비소 탐색, 수리 견적 확인과 이동 복귀까지 서로 다른 주체와 연락하며 해결 과정을 직접 관리해야 합니다. 사고 상황과 차량 상태를 여러 곳에 반복해서 설명하고, 각 단계의 진행 상황과 다음에 해야 할 일을 개별적으로 확인해야 하는 구조입니다.",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.8,
+              "color": "rgb(103 103 103)",
+              "uppercase": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 3832,
+      "height": 1403,
+      "nodes": [
+        {
+          "id": "2919:617",
+          "x": 20,
+          "y": 3832,
+          "w": 1880,
+          "h": 853,
+          "kind": "media",
+          "radius": 0,
+          "background": "#000",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "start": 5235,
+      "height": 209,
+      "nodes": [
+        {
+          "id": "2892:976",
+          "x": 20,
+          "y": 5235,
+          "w": 268,
+          "h": 132,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "THE PLEV\nIDENTITY",
+              "font": "Archivo",
+              "weight": 600,
+              "size": 60,
+              "spacing": -0.05,
+              "line": 1.1,
+              "color": "rgb(0 0 0)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:974",
+          "x": 970,
+          "y": 5235,
+          "w": 930,
+          "h": 129,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "PLEV의 로고는 서비스 지원 차량인 기아 PV5의 사이드미러 형태에서 영감을 받아 제작되었습니다. 주변을 살피고 위험을 미리 알아차리도록 돕는 사이드미러의 역할을 바탕으로, 사용자의 이동을 세심하게 살피고 안전한 운송을 지원하는 서비스의 지향점을 담았습니다.",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.8,
+              "color": "rgb(103 103 103)",
+              "uppercase": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 5444,
+      "height": 873,
+      "nodes": [
+        {
+          "id": "2919:611",
+          "x": 20,
+          "y": 5444,
+          "w": 1880,
+          "h": 853,
+          "kind": "media",
+          "radius": 0,
+          "background": "#000",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "start": 6317,
+      "height": 950,
+      "nodes": [
+        {
+          "id": "2903:621",
+          "x": 20,
+          "y": 6317,
+          "w": 930,
+          "h": 930,
+          "kind": "media",
+          "radius": 0,
+          "background": "#000",
+          "label": ""
+        },
+        {
+          "id": "2903:622",
+          "x": 970,
+          "y": 6317,
+          "w": 930,
+          "h": 930,
+          "kind": "media",
+          "radius": 0,
+          "background": "#000",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "start": 7267,
+      "height": 1210,
+      "nodes": [
+        {
+          "id": "2903:620",
+          "x": 20,
+          "y": 7267,
+          "w": 1880,
+          "h": 930,
+          "kind": "media",
+          "radius": 0,
+          "background": "#000",
+          "label": ""
+        },
+        {
+          "id": "2903:623",
+          "x": 20,
+          "y": 7267,
+          "w": 1880,
+          "h": 930,
+          "kind": "media",
+          "radius": 0,
+          "background": "#000",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "start": 8477,
+      "height": 920,
+      "nodes": [
+        {
+          "id": "2892:982",
+          "x": 20,
+          "y": 8477,
+          "w": 280,
+          "h": 132,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "CONNECT\n& ASSIST ",
+              "font": "Archivo",
+              "weight": 600,
+              "size": 60,
+              "spacing": -0.05,
+              "line": 1.1,
+              "color": "rgb(0 0 0)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2896:655",
+          "x": 20,
+          "y": 8649,
+          "w": 1880,
+          "h": 2,
+          "kind": "rule",
+          "background": "rgb(226 226 226)"
+        },
+        {
+          "id": "2896:656",
+          "x": 950,
+          "y": 8650,
+          "w": 2,
+          "h": 727,
+          "kind": "rule",
+          "background": "#e2e2e2"
+        },
+        {
+          "id": "2892:985",
+          "x": 975,
+          "y": 8691,
+          "w": 25,
+          "h": 34,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "01",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.4,
+              "color": "rgb(0 0 0)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:983",
+          "x": 1207,
+          "y": 8691,
+          "w": 228,
+          "h": 34,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "호출부터 접수까지 간단히",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.4,
+              "color": "rgb(0 0 0)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:987",
+          "x": 1207,
+          "y": 8745,
+          "w": 693,
+          "h": 129,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "모바일 어플리케이션으로 사용자가 등록한 모델과 호환되는 PV5를 호출합니다. 위치 기반으로 가장 가까운 차량 차고지에서 출발하며, 호출 현장까지의 도달 현황을 실시간으로 확인할 수 있습니다. ",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.8,
+              "color": "rgb(103 103 103)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:986",
+          "x": 975,
+          "y": 8994,
+          "w": 29,
+          "h": 34,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "02",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.4,
+              "color": "rgb(0 0 0)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:984",
+          "x": 1207,
+          "y": 8994,
+          "w": 228,
+          "h": 34,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "이동은 신속하고 안전하게",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.4,
+              "color": "rgb(0 0 0)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:988",
+          "x": 1207,
+          "y": 9048,
+          "w": 693,
+          "h": 129,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "PV5 도착 후 QR 인증을 통해 차량과 연결하고 내부 장비를 이용하여 간단한 작업을 진행합니다. 조치가 필요한 경우 정비소를 선택하고, 전용 리프트와 전면 고정 장치로 손상 없이 운송합니다.",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.8,
+              "color": "rgb(103 103 103)",
+              "uppercase": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 9397,
+      "height": 1104,
+      "nodes": [
+        {
+          "id": "2892:989",
+          "x": 20,
+          "y": 9397,
+          "w": 1880,
+          "h": 1058,
+          "kind": "media",
+          "radius": 0,
+          "background": "#000",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "start": 10501,
+      "height": 1494,
+      "nodes": [
+        {
+          "id": "2892:990",
+          "x": 20,
+          "y": 10501,
+          "w": 1880,
+          "h": 1254,
+          "kind": "media",
+          "radius": 0,
+          "background": "#000",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "start": 11995,
+      "height": 1254,
+      "nodes": [
+        {
+          "id": "2892:993",
+          "x": 20,
+          "y": 11995,
+          "w": 88,
+          "h": 72,
+          "kind": "badge",
+          "text": "01"
+        },
+        {
+          "id": "2892:992",
+          "x": 139,
+          "y": 11997,
+          "w": 144,
+          "h": 68,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "웅나나 와따웅나\n웅나나 와따웅나",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.4,
+              "color": "rgb(0 0 0)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:991",
+          "x": 139,
+          "y": 12105,
+          "w": 573,
+          "h": 129,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.8,
+              "color": "rgb(103 103 103)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:995",
+          "x": 139,
+          "y": 12314,
+          "w": 811,
+          "h": 695,
+          "kind": "media",
+          "radius": 0,
+          "background": "#000",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "start": 13249,
+      "height": 1254,
+      "nodes": [
+        {
+          "id": "2892:999",
+          "x": 851,
+          "y": 13249,
+          "w": 88,
+          "h": 72,
+          "kind": "badge",
+          "text": "02"
+        },
+        {
+          "id": "2892:998",
+          "x": 970,
+          "y": 13251,
+          "w": 144,
+          "h": 68,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "웅나나 와따웅나\n웅나나 와따웅나",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.4,
+              "color": "rgb(0 0 0)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:997",
+          "x": 970,
+          "y": 13359,
+          "w": 573,
+          "h": 129,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.8,
+              "color": "rgb(103 103 103)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:1001",
+          "x": 970,
+          "y": 13568,
+          "w": 811,
+          "h": 695,
+          "kind": "media",
+          "radius": 0,
+          "background": "#000",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "start": 14503,
+      "height": 1112,
+      "nodes": [
+        {
+          "id": "2892:1003",
+          "x": 138,
+          "y": 14503,
+          "w": 573,
+          "h": 872,
+          "kind": "media",
+          "radius": 50,
+          "background": "#000",
+          "label": ""
+        },
+        {
+          "id": "2892:1006",
+          "x": 851,
+          "y": 14583,
+          "w": 88,
+          "h": 72,
+          "kind": "badge",
+          "text": "03"
+        },
+        {
+          "id": "2892:1005",
+          "x": 970,
+          "y": 14585,
+          "w": 144,
+          "h": 68,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "웅나나 와따웅나\n웅나나 와따웅나",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.4,
+              "color": "rgb(0 0 0)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:1004",
+          "x": 970,
+          "y": 14693,
+          "w": 573,
+          "h": 129,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "사고가 발생하면 이륜차 운전자는 현장 대응부터 정비소 탐색, 수리 견적 확인과  이동 복귀까지, 서로 다른 주체와 연락하며 해결 과정을 직접 관리 사고가 발생하면 이륜차 운전자는 현장",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.8,
+              "color": "rgb(103 103 103)",
+              "uppercase": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 15615,
+      "height": 1533,
+      "nodes": [
+        {
+          "id": "2892:1008",
+          "x": 20,
+          "y": 15615,
+          "w": 1880,
+          "h": 1253,
+          "kind": "media",
+          "radius": 0,
+          "background": "#000",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "start": 17148,
+      "height": 920,
+      "nodes": [
+        {
+          "id": "2896:667",
+          "x": 20,
+          "y": 17148,
+          "w": 286,
+          "h": 132,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "restore\n& return",
+              "font": "Archivo",
+              "weight": 600,
+              "size": 60,
+              "spacing": -0.05,
+              "line": 1.1,
+              "color": "rgb(0 0 0)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2896:674",
+          "x": 20,
+          "y": 17320,
+          "w": 1880,
+          "h": 2,
+          "kind": "rule",
+          "background": "rgb(226 226 226)"
+        },
+        {
+          "id": "2896:675",
+          "x": 950,
+          "y": 17321,
+          "w": 2,
+          "h": 727,
+          "kind": "rule",
+          "background": "#e2e2e2"
+        },
+        {
+          "id": "2896:670",
+          "x": 975,
+          "y": 17362,
+          "w": 25,
+          "h": 34,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "01",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.4,
+              "color": "rgb(0 0 0)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2896:668",
+          "x": 1207,
+          "y": 17362,
+          "w": 212,
+          "h": 34,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "바로 이어지는 정비 연계",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.4,
+              "color": "rgb(0 0 0)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2896:672",
+          "x": 1207,
+          "y": 17416,
+          "w": 693,
+          "h": 129,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "접수 과정에서 전달된 사고 정보와 차량 정보를 정비소에 미리 공유합니다.\n정비소는 차량이 도착하기 전 필요한 작업을 준비하고,  입고 이후 진단 및 정비를 보다 신속하게 진행합니다.",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.8,
+              "color": "rgb(103 103 103)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2896:671",
+          "x": 975,
+          "y": 17665,
+          "w": 29,
+          "h": 34,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "02",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.4,
+              "color": "rgb(0 0 0)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2896:669",
+          "x": 1207,
+          "y": 17665,
+          "w": 188,
+          "h": 34,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "원하는 방식으로 복귀",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.4,
+              "color": "rgb(0 0 0)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2896:673",
+          "x": 1207,
+          "y": 17719,
+          "w": 693,
+          "h": 129,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "정비가 완료된 후, 사용자의 일정에 따라 PV5 원격 복귀와 직접 수령 중 원하는 과정을 선택할 수 있습니다. 상황에 맞는 복귀 방식을 제공하여 정비 이후의 과정까지 자연스럽게 연결합니다.",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.8,
+              "color": "rgb(103 103 103)",
+              "uppercase": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 18068,
+      "height": 1078,
+      "nodes": [
+        {
+          "id": "2892:1016",
+          "x": 20,
+          "y": 18068,
+          "w": 1880,
+          "h": 1058,
+          "kind": "media",
+          "radius": 0,
+          "background": "#000",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "start": 19146,
+      "height": 1493,
+      "nodes": [
+        {
+          "id": "2892:1018",
+          "x": 20,
+          "y": 19146,
+          "w": 1880,
+          "h": 1253,
+          "kind": "media",
+          "radius": 0,
+          "background": "#000",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "start": 20639,
+      "height": 1254,
+      "nodes": [
+        {
+          "id": "2892:1021",
+          "x": 139,
+          "y": 20639,
+          "w": 88,
+          "h": 72,
+          "kind": "badge",
+          "text": "01"
+        },
+        {
+          "id": "2892:1020",
+          "x": 258,
+          "y": 20641,
+          "w": 144,
+          "h": 68,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "웅나나 와따웅나\n웅나나 와따웅나",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.4,
+              "color": "rgb(0 0 0)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:1019",
+          "x": 258,
+          "y": 20749,
+          "w": 573,
+          "h": 129,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나웅나",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.8,
+              "color": "rgb(103 103 103)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:1023",
+          "x": 258,
+          "y": 20958,
+          "w": 811,
+          "h": 695,
+          "kind": "media",
+          "radius": 0,
+          "background": "#000",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "start": 21893,
+      "height": 1553,
+      "nodes": [
+        {
+          "id": "2892:1025",
+          "x": 20,
+          "y": 21893,
+          "w": 1880,
+          "h": 1253,
+          "kind": "media",
+          "radius": 0,
+          "background": "#000",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "start": 23446,
+      "height": 900,
+      "nodes": [
+        {
+          "id": "2896:677",
+          "x": 20,
+          "y": 23446,
+          "w": 286,
+          "h": 132,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "restore\n& return",
+              "font": "Archivo",
+              "weight": 600,
+              "size": 60,
+              "spacing": -0.05,
+              "line": 1.1,
+              "color": "rgb(0 0 0)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:1030",
+          "x": 20,
+          "y": 23660,
+          "w": 376,
+          "h": 76,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "사고 처리에서, 긴급 상황과 점검 예약까지\n운송분야의 카테고리를 PV5로 지원합니다",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.6,
+              "color": "rgb(36 36 36)",
+              "uppercase": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 24346,
+      "height": 1003,
+      "nodes": [
+        {
+          "id": "2892:1034",
+          "x": 20,
+          "y": 24346,
+          "w": 1880,
+          "h": 983,
+          "kind": "media",
+          "radius": 0,
+          "background": "#000",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "start": 25349,
+      "height": 1330,
+      "nodes": [
+        {
+          "id": "2892:1035",
+          "x": 20,
+          "y": 25349,
+          "w": 930,
+          "h": 930,
+          "kind": "media",
+          "radius": 0,
+          "background": "#000",
+          "label": ""
+        },
+        {
+          "id": "2892:1031",
+          "x": 970,
+          "y": 25349,
+          "w": 930,
+          "h": 930,
+          "kind": "media",
+          "radius": 0,
+          "background": "#000",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "start": 26679,
+      "height": 1502,
+      "nodes": [
+        {
+          "id": "2892:1036",
+          "x": 20,
+          "y": 26679,
+          "w": 257,
+          "h": 132,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "the ride\n pauses.",
+              "font": "Archivo",
+              "weight": 600,
+              "size": 60,
+              "spacing": -0.05,
+              "line": 1.1,
+              "color": "rgb(0 0 0)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:1037",
+          "x": 970,
+          "y": 26679,
+          "w": 930,
+          "h": 660,
+          "kind": "media",
+          "radius": 0,
+          "background": "#000",
+          "label": ""
+        },
+        {
+          "id": "2892:1040",
+          "x": 20,
+          "y": 27285,
+          "w": 440,
+          "h": 264,
+          "kind": "media",
+          "radius": 0,
+          "background": "#000",
+          "label": ""
+        },
+        {
+          "id": "2892:1038",
+          "x": 970,
+          "y": 27359,
+          "w": 930,
+          "h": 0,
+          "kind": "line",
+          "weight": 2,
+          "color": "#000"
+        },
+        {
+          "id": "2892:1039",
+          "x": 970,
+          "y": 27359,
+          "w": 218,
+          "h": 0,
+          "kind": "line",
+          "weight": 3,
+          "color": "#000"
+        },
+        {
+          "id": "2892:1041",
+          "x": 970,
+          "y": 27399,
+          "w": 193,
+          "h": 34,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "MODULAR SPACE ",
+              "font": "SUIT",
+              "weight": 700,
+              "size": 24,
+              "spacing": -0.05,
+              "line": 1.4,
+              "color": "rgb(0 0 0)",
+              "uppercase": true
+            }
+          ]
+        },
+        {
+          "id": "2892:1042",
+          "x": 970,
+          "y": 27463,
+          "w": 930,
+          "h": 86,
+          "kind": "text",
+          "segments": [
+            {
+              "text": "현장에 필요한 기능을 하나의 공간에. 이륜차 전용 리프트와 고정 장치, 정비 도구, 디스플레이를 PV5의 모듈형 적재 공간에 맞춰 배치했습니다.",
+              "font": "SUIT",
+              "weight": 300,
+              "size": 24,
+              "spacing": 0,
+              "line": 1.8,
+              "color": "rgb(103 103 103)",
+              "uppercase": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 28181,
+      "height": 826,
+      "nodes": [
+        {
+          "id": "2892:1043",
+          "x": 0,
+          "y": 28181,
+          "w": 1920,
+          "h": 826,
+          "kind": "media",
+          "radius": 0,
+          "background": "#000",
+          "label": ""
+        }
+      ]
+    }
+  ]
+}

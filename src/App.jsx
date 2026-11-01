@@ -17,7 +17,11 @@ const motionVideos = {
     label: '1 영상',
   },
   '199:74': { src: '/videos/motion-1.mp4', label: 'PLEV 차량 모션 1' },
-  '199:73': { src: '/videos/motion-2.mp4', label: 'PLEV 차량 모션 2' },
+  '199:73': {
+    src: '/videos/logo-part-2.mp4',
+    poster: '/images/web-20261101/logo-part-2-poster.webp',
+    label: '로고 부분 2',
+  },
   '199:75': { src: '/videos/motion-3.mp4', label: 'PLEV 차량 모션 3' },
   '199:164': {
     src: '/videos/restore-return.mp4',

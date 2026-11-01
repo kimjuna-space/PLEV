@@ -2485,14 +2485,6 @@
         }
       ],
       "sourceStart": 28424
-    },
-    {
-      "start": 30325.96875,
-      "height": 185.625,
-      "name": "PLEV",
-      "dark": false,
-      "nodes": [],
-      "sourceStart": 29407
     }
   ],
   "sourceDesign": {

@@ -7,23 +7,41 @@ function BrandFilm({ style, nodeId }) {
   useEffect(() => {
     const video = videoRef.current
     let wasVisible = false
+    let meetsVideoThreshold = false
 
-    const observer = new IntersectionObserver(([entry]) => {
-      const visible = entry.isIntersecting && entry.intersectionRatio > 0
+    const updatePlayback = () => {
+      const metadataIds = ['199:29', '199:30', '199:31', '199:32', '199:33', '199:34', '199:35', '199:36']
+      const metadataIsOffscreen = metadataIds.every((id) => {
+        const element = document.querySelector(`[data-node-id="${id}"]`)
+        return !element || element.getBoundingClientRect().bottom <= 0
+      })
+      const visible = meetsVideoThreshold && metadataIsOffscreen
 
       if (visible && !wasVisible) {
         video.currentTime = 0
         video.play().catch(() => {})
-      } else if (!visible) {
+      } else if (!visible && wasVisible) {
         video.pause()
+        video.currentTime = 0
       }
 
       wasVisible = visible
-    }, { threshold: [0, 0.01] })
+    }
+
+    const observer = new IntersectionObserver(([entry]) => {
+      meetsVideoThreshold = entry.isIntersecting && entry.intersectionRatio >= 0.8
+      updatePlayback()
+    }, { threshold: [0, 0.8] })
 
     observer.observe(video)
+    window.addEventListener('scroll', updatePlayback, { passive: true })
+    window.addEventListener('resize', updatePlayback)
+    updatePlayback()
+
     return () => {
       observer.disconnect()
+      window.removeEventListener('scroll', updatePlayback)
+      window.removeEventListener('resize', updatePlayback)
       video.pause()
     }
   }, [])
@@ -40,6 +58,7 @@ function BrandFilm({ style, nodeId }) {
       <video
         ref={videoRef}
         className="brand-film"
+        poster="/images/web-20261101/brand-film-poster.webp"
         src="/videos/brand-film.mp4?v=20261027-142248"
         loop
         muted={muted}

@@ -1,21 +1,22 @@
 import { useEffect, useRef } from 'react'
 
-function MotionVideo({ src, style, nodeId, label }) {
+function MotionVideo({ src, style, nodeId, label, poster }) {
   const videoRef = useRef(null)
 
   useEffect(() => {
     const video = videoRef.current
     let wasVisible = false
     const observer = new IntersectionObserver(([entry]) => {
-      const visible = entry.isIntersecting
+      const visible = entry.isIntersecting && entry.intersectionRatio >= 0.8
       if (visible && !wasVisible) {
         video.currentTime = 0
         video.play().catch(() => {})
-      } else if (!visible) {
+      } else if (!visible && wasVisible) {
         video.pause()
+        video.currentTime = 0
       }
       wasVisible = visible
-    }, { threshold: 0.1 })
+    }, { threshold: [0, 0.8] })
 
     observer.observe(video)
     return () => observer.disconnect()
@@ -28,7 +29,7 @@ function MotionVideo({ src, style, nodeId, label }) {
       style={style}
       data-node-id={nodeId}
       src={src}
-      autoPlay
+      poster={poster}
       loop
       muted
       playsInline

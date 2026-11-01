@@ -1,7 +1,7 @@
 @import url('https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css');
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&display=swap');
 
-/* 개인작업 / web: 1920 × 32219. 원본 수치는 web-frame.json에서 관리합니다. */
+/* 기준 화면: 1980 × 1020. 개인작업 / web의 원본 비율을 유지합니다. 좌표와 글자 속성은 web-frame.json에 있습니다. */
 :root {
   font-family: 'SUIT', sans-serif;
   color: #000;
@@ -9,18 +9,14 @@
   font-synthesis: none;
 }
 
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 html {
   scroll-behavior: auto;
   scrollbar-width: none;
 }
 
-html::-webkit-scrollbar {
-  display: none;
-}
+html::-webkit-scrollbar { display: none; }
 
 body {
   margin: 0;
@@ -28,10 +24,18 @@ body {
 }
 
 .figma-page {
+  position: relative;
   width: 100%;
   container-type: inline-size;
   background: #fafafa;
   overflow-x: clip;
+}
+
+.page-background {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
 }
 
 .design-section {
@@ -50,19 +54,14 @@ body {
 .design-text {
   white-space: pre-wrap;
   overflow-wrap: anywhere;
-  word-break: normal;
   line-height: 0;
 }
 
-.design-text span {
-  font-variation-settings: 'wdth' 100;
-}
+.design-text span { font-variation-settings: 'wdth' 100; }
 
 .design-media,
 .design-badge,
-.design-rule {
-  height: var(--element-height);
-}
+.design-rule { height: var(--element-height); }
 
 .design-image,
 .motion-video {
@@ -71,9 +70,8 @@ body {
   object-position: center;
 }
 
-.design-wordmark {
-  object-fit: contain;
-}
+.design-wordmark,
+.design-footer-logo { object-fit: contain; }
 
 .brand-film-frame {
   overflow: hidden;
@@ -108,28 +106,25 @@ body {
 .design-badge {
   display: grid;
   place-items: center;
-  color: #fff;
-  background: #000;
-  font-family: 'Archivo', sans-serif;
-  font-size: 1.875cqw;
-  font-weight: 600;
   letter-spacing: -0.05em;
-  line-height: 1.1;
+  line-height: 1.4;
 }
 
-.values-mobile {
-  display: none;
-}
+.care-flow-mobile { display: none; }
 
-/* 태블릿까지 원본 비율 유지. 휴대폰은 글과 이미지를 읽기 좋은 순서로 배치합니다. */
+/* 휴대폰에서는 글자를 읽을 수 있도록 이미지와 본문을 세로로 재배치합니다. */
 @media (max-width: 37.5rem) {
+  .page-background { display: none; }
+
   .design-section {
     display: flex;
     flex-direction: column;
-    gap: 1.25rem;
+    gap: 1.5rem;
     min-height: 0 !important;
     padding: 2rem 1rem;
   }
+
+  .design-dark { background: #000; }
 
   .design-element {
     position: relative;
@@ -138,32 +133,8 @@ body {
     order: var(--mobile-order);
   }
 
-  .design-intro {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.75rem 1.25rem;
-  }
-
-  .design-intro > * {
-    grid-column: 1 / -1;
-  }
-
-  .design-intro [data-node-id='194:165'] { grid-area: 1 / 1; }
-  .design-intro [data-node-id='194:169'] { grid-area: 2 / 1; }
-  .design-intro [data-node-id='194:166'] { grid-area: 1 / 2; }
-  .design-intro [data-node-id='194:170'] { grid-area: 2 / 2; }
-  .design-intro [data-node-id='194:167'] { grid-area: 3 / 1; }
-  .design-intro [data-node-id='194:171'] { grid-area: 4 / 1; }
-  .design-intro [data-node-id='194:168'] { grid-area: 3 / 2; }
-  .design-intro [data-node-id='194:172'] { grid-area: 4 / 2; }
-
-  .design-intro .design-wordmark {
-    margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-
   .design-text span {
-    font-size: clamp(0.75rem, var(--mobile-font-size), 2.75rem) !important;
+    font-size: clamp(0.75rem, var(--mobile-font-size), 2.5rem) !important;
   }
 
   .design-media {
@@ -172,52 +143,96 @@ body {
   }
 
   .design-badge {
-    width: 3.5rem;
-    height: 3rem;
-    font-size: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1rem !important;
   }
 
-  .design-rule {
-    height: 0.0625rem;
-  }
+  .design-rule { display: none; }
 
-  .design-values {
-    display: block;
-    padding: 0;
-    background: #171717;
-  }
-
-  .design-values > .design-element {
-    display: none;
-  }
-
-  .values-mobile {
+  .design-intro {
     display: grid;
-    gap: 0.0625rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem 1.25rem;
   }
 
-  .value-card {
+  .design-intro > * { grid-column: 1 / -1; }
+  .design-intro [data-node-id='199:29'] { grid-area: 1 / 1; }
+  .design-intro [data-node-id='199:33'] { grid-area: 2 / 1; }
+  .design-intro [data-node-id='199:30'] { grid-area: 1 / 2; }
+  .design-intro [data-node-id='199:34'] { grid-area: 2 / 2; }
+  .design-intro [data-node-id='199:31'] { grid-area: 3 / 1; }
+  .design-intro [data-node-id='199:35'] { grid-area: 4 / 1; }
+  .design-intro [data-node-id='199:32'] { grid-area: 3 / 2; }
+  .design-intro [data-node-id='199:36'] { grid-area: 4 / 2; }
+
+  .design-wordmark {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .design-care-flow > .design-element { display: none; }
+
+  .care-flow-mobile {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    min-height: 32rem;
-    padding: 2.5rem 1.5rem;
-    background-image: linear-gradient(rgb(0 0 0 / 40%), rgb(0 0 0 / 40%)), url('/images/figma-personal/276.png');
-    background-size: 300% 100%;
+    gap: 2rem;
   }
 
-  .value-card .design-text {
+  .care-devices {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .care-devices .design-text { text-align: center !important; }
+
+  .care-stages {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem 0.75rem;
+  }
+
+  .care-stage {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 10.5rem;
+    padding: 1.25rem 0.5rem;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .care-stage-circle {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+
+  .care-stage .design-element {
+    order: initial;
     text-align: center !important;
   }
 
-  .design-values .design-text span {
-    font-size: clamp(0.875rem, var(--mobile-font-size), 1.75rem) !important;
+  .care-stage .design-badge {
+    height: 1.5rem;
+    width: 2rem;
   }
 
-  .design-values [data-node-id='194:283'] { order: 1; }
-  .design-values [data-node-id='194:286'] { order: 2; }
-  .design-values [data-node-id='194:284'] { order: 3; }
-  .design-values [data-node-id='194:287'] { order: 4; }
-  .design-values [data-node-id='194:285'] { order: 5; }
-  .design-values [data-node-id='194:288'] { order: 6; }
+  .care-stage .design-text span { font-size: 0.8rem !important; }
+  .care-stage .design-text:last-child span { font-size: 0.625rem !important; }
+
+  .design-footer {
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .design-footer .design-text { text-align: center !important; }
+  .design-footer-logo { max-width: 20rem; }
 }

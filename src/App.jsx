@@ -4,6 +4,7 @@ import 'lenis/dist/lenis.css'
 import frame from './web-frame.json'
 import BrandFilm from './BrandFilm.jsx'
 import MotionVideo from './MotionVideo.jsx'
+import LoadingScreen from './LoadingScreen.jsx'
 import './App.css'
 
 // 기준 화면 1980 × 1020. 콘텐츠는 화면 너비에 맞춰 비례 조정합니다.
@@ -170,27 +171,30 @@ function App() {
   }, [])
 
   return (
-    <main className="figma-page" aria-label="PLEV — CARE IN TRANSIT" data-node-id={frame.id}>
-      {frame.backgrounds.map((node) => (
-        <div
-          className="page-background"
-          key={node.id}
-          style={{ top: scaled(node.y), height: scaled(node.h), background: node.background }}
-          aria-hidden="true"
-        />
-      ))}
-      {frame.sections.map((section) => (
-        <section
-          className={`design-section${(section.sourceStart ?? section.start) === 0 ? ' design-intro' : ''}${section.dark ? ' design-dark' : ''}${(section.sourceStart ?? section.start) === 9702 ? ' design-care-flow' : ''}${(section.sourceStart ?? section.start) === 28424 ? ' design-footer' : ''}`}
-          key={section.start}
-          style={{ minHeight: scaled(section.height) }}
-          aria-label={section.name}
-        >
-          {section.nodes.map((node) => <DesignElement key={node.id} node={node} sectionStart={section.start} />)}
-          {(section.sourceStart ?? section.start) === 9702 && <MobileCareFlow section={section} />}
-        </section>
-      ))}
-    </main>
+    <>
+      <LoadingScreen />
+      <main className="figma-page" aria-label="PLEV — CARE IN TRANSIT" data-node-id={frame.id}>
+        {frame.backgrounds.map((node) => (
+          <div
+            className="page-background"
+            key={node.id}
+            style={{ top: scaled(node.y), height: scaled(node.h), background: node.background }}
+            aria-hidden="true"
+          />
+        ))}
+        {frame.sections.map((section) => (
+          <section
+            className={`design-section${(section.sourceStart ?? section.start) === 0 ? ' design-intro' : ''}${section.dark ? ' design-dark' : ''}${(section.sourceStart ?? section.start) === 9702 ? ' design-care-flow' : ''}${(section.sourceStart ?? section.start) === 28424 ? ' design-footer' : ''}`}
+            key={section.start}
+            style={{ minHeight: scaled(section.height) }}
+            aria-label={section.name}
+          >
+            {section.nodes.map((node) => <DesignElement key={node.id} node={node} sectionStart={section.start} />)}
+            {(section.sourceStart ?? section.start) === 9702 && <MobileCareFlow section={section} />}
+          </section>
+        ))}
+      </main>
+    </>
   )
 }
 

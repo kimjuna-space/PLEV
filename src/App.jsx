@@ -152,7 +152,7 @@ function LoadingScreen({ onComplete }) {
   </div>
 }
 
-const sectionStops = [0, 1772, 2764, 3825, 5353, 6707, 7782, 9908, 11340, 12472, 13667, 14893, 16223, 18323, 19400, 20526, 21851, 23046, 24800, 26006, 27743]
+const sectionStops = [0, 1772, 2764, 3825, 5353, 6707, 7782, 9908, 11340, 12472, 13667, 14893, 16223, 18323, 19400, 20498, 21851, 23046, 24800, 26006, 27743]
 
 function SectionNavigator({ lenisRef }) {
   const destinationIndex = useRef(null)

@@ -1,0 +1,122 @@
+@import url('https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap');
+
+/* 웹111111: 1920 × 29192. 수치와 문구는 web-frame.json에서 관리합니다. */
+:root {
+  font-family: 'SUIT', sans-serif;
+  color: #000;
+  background: #fafafa;
+  font-synthesis: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: auto;
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+  min-width: 20rem;
+}
+
+.figma-page {
+  width: 100%;
+  container-type: inline-size;
+  background: #fafafa;
+  overflow: clip;
+}
+
+.design-section {
+  position: relative;
+  width: 100%;
+}
+
+.design-element {
+  position: absolute;
+  top: var(--element-top);
+  left: var(--element-left);
+  width: var(--element-width);
+  margin: 0;
+}
+
+/* 글상자 높이는 고정하지 않아 폰트 로딩 후에도 잘리지 않습니다. */
+.design-text {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  text-align: left;
+  line-height: 0;
+}
+
+.design-text span {
+  font-variation-settings: 'wdth' 100;
+}
+
+.design-media,
+.design-badge {
+  height: var(--element-height);
+  display: grid;
+  place-items: center;
+}
+
+.design-media {
+  color: #888;
+  font-size: 0.729167cqw;
+}
+
+.design-badge {
+  color: #fff;
+  background: #000;
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.875cqw;
+  font-weight: 600;
+  letter-spacing: -0.05em;
+  line-height: 1.1;
+}
+
+.design-line {
+  height: 0;
+  border-top-style: solid;
+  border-color: #000;
+}
+
+/* 작은 휴대폰에서는 본문 가독성을 위해 세로 배치로 전환합니다. */
+@media (max-width: 37.5rem) {
+  .design-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    min-height: 0 !important;
+    padding: 1.5rem 1rem;
+  }
+
+  .design-element {
+    position: relative;
+    inset: auto;
+    width: 100%;
+  }
+
+  .design-text span {
+    font-size: clamp(0.75rem, var(--mobile-font-size), 2.75rem) !important;
+  }
+
+  .design-media {
+    height: auto;
+    aspect-ratio: var(--media-ratio);
+    font-size: 0.75rem;
+  }
+
+  .design-badge {
+    width: 3.5rem;
+    height: 3rem;
+    font-size: 1.5rem;
+  }
+}

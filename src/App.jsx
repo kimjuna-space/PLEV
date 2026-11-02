@@ -127,7 +127,9 @@ function ServiceCards() {
       <img className="garage-background" src="/images/12-card-right.webp" alt="" />
       <img className="garage-floating" src="/images/13-card-floating.png" alt="KP 모토라드 강남, 4km" />
     </article>
-    <div className="service-motion-placeholder">모션 영상 들어갈 자리</div>
+    <div className="service-motion-placeholder">
+      <img src="/images/service-motion-control.webp" alt="TRANSPORT CONTROL 화면" />
+    </div>
   </section>
 }
 
@@ -150,7 +152,7 @@ function LoadingScreen({ onComplete }) {
   </div>
 }
 
-const sectionStops = [0, 1772, 2764, 3825, 5353, 6707, 7782, 9908, 11340, 12472, 13667, 14893, 16163, 18323, 19400, 20526, 21851, 23046, 24800, 26006, 27743]
+const sectionStops = [0, 1772, 2764, 3825, 5353, 6707, 7782, 9908, 11340, 12472, 13667, 14893, 16223, 18323, 19400, 20526, 21851, 23046, 24800, 26006, 27743]
 
 function SectionNavigator({ lenisRef }) {
   const destinationIndex = useRef(null)

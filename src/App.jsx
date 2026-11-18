@@ -83,7 +83,7 @@ function LoadingScreen({ onComplete }) {
   const [isLeaving, setIsLeaving] = useState(false)
   return <div className={`loading-screen${isLeaving ? ' is-leaving' : ''}`} role="status" aria-label="PLEV 로딩 중" onAnimationEnd={() => isLeaving && onComplete()}><video className="loading-motion" src="/videos/loading-motion.mp4" autoPlay muted playsInline preload="auto" onEnded={() => setIsLeaving(true)} onError={() => setIsLeaving(true)} /></div>
 }
-const sectionStops = [0,238,1308,2409,3849,5250,6310,7150,8405,9897,11009,12185,13431,14851,17268,18377,19518,20799,22019,23200,24389,25829,27289]
+const sectionStops = [0,238,1308,2409,3849,5250,6310,7150,8405,9897,11009,12185,13431,14851,17268,18377,19518,20799,22019,23200,24339,25829,27289]
 function SectionNavigator({ lenisRef }) {
   const queued = useRef(null)
   const move = (direction) => {

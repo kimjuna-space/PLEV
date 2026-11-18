@@ -7,15 +7,14 @@ const image = (file, x, y, w, h, fit = 'cover') => ({ file, x, y, w, h, fit })
 const text = (value, x, y, w, kind, color) => ({ value, x, y, w, kind, color })
 const images = [
   image('plev-care-in-transit.svg', 20.7, 181, 866.547, 54.036, 'contain'),
-  image('web-sw/pv5-highroof.webp', 614, 2429, 1286, 1000),
-  image('web-sw/models-hero.jpg', 20, 3869, 1880, 800),
-  image('web-sw/vehicle-composite.webp', 20, 5457, 1880, 853),
-  image('web-sw/transition-hero.webp', 0, 16211, 1920, 817),
-  image('web-sw/restore-main.webp', 20, 19466, 1880, 1253),
-  image('web-sw/service-card-left.webp', 20, 13371, 930, 1200),
-  image('web-sw/service-card-right.webp', 970, 13371, 930, 1200),
-  image('web-sw/transport-control.webp', 20, 14591, 1880, 1600),
-  image('web-sw/additional-detail.webp', 614, 24409, 1286, 1000),
+  image('web-sw/pv5-highroof.png', 614, 2429, 1286, 1000),
+  image('web-sw/models-hero.png', 20, 3869, 1880, 800),
+  image('web-sw/vehicle-composite.png', 20, 5457, 1880, 853),
+  image('web-sw/transition-hero.png', 0, 16211, 1920, 817),
+  image('web-sw/restore-main.png', 20, 19466, 1880, 1253),
+  image('web-sw/service-card-right.png', 970, 13371, 930, 1200),
+  image('web-sw/transport-control.png', 20, 14591, 1880, 1600),
+  image('web-sw/additional-detail.png', 614, 24409, 1286, 1000),
 ]
 const copy = [
   text('PROJECT',20,12,440,'meta','#111'),text('SCOPE',495,12,440,'meta','#111'),text('PLATFORMS',970,12,440,'meta','#111'),text('PERIOD',1445,12,440,'meta','#111'),
@@ -78,15 +77,15 @@ function CareFlow() {
 }
 function RestoreCards() {
   return <section className="restore-cards" aria-label="복귀 서비스 화면">
-    <article className="restore-card restore-card-left"><img src="/images/web-sw/restore-card-left.webp" alt="" /></article>
-    <article className="restore-card restore-card-right"><img src="/images/web-sw/restore-card-right.webp" alt="PV5 복귀 모바일 화면" /></article>
+    <article className="restore-card restore-card-left"><img src="/images/web-sw/restore-card-left.png" alt="" /></article>
+    <article className="restore-card restore-card-right"><img src="/images/web-sw/restore-card-right.png" alt="PV5 복귀 모바일 화면" /></article>
   </section>
 }
 function LoadingScreen({ onComplete }) {
   const [isLeaving, setIsLeaving] = useState(false)
   return <div className={`loading-screen${isLeaving ? ' is-leaving' : ''}`} role="status" aria-label="PLEV 로딩 중" onAnimationEnd={() => isLeaving && onComplete()}><video className="loading-motion" src="/videos/loading-motion.mp4" autoPlay muted playsInline preload="auto" onEnded={() => setIsLeaving(true)} onError={() => setIsLeaving(true)} /></div>
 }
-const sectionStops = [0,1716,2429,4709,5457,6330,7280,8230,10100,11020,12098,13371,14591,16211,17048,18388,19466,20739,21959,23621,24409,27349]
+const sectionStops = [238,1308,2409,3849,5250,6310,7150,8405,9897,11009,12185,13431,14851,17268,18377,19518,20799,22019,23200]
 function SectionNavigator({ lenisRef }) {
   const queued = useRef(null)
   const move = (direction) => {
@@ -105,6 +104,6 @@ function App() {
   const lenisRef = useRef(null)
   useEffect(() => { const lenis = new Lenis({ autoRaf: true, lerp: 0.085, smoothWheel: true, wheelMultiplier: 0.9, respectReducedMotion: false }); lenisRef.current = lenis; return () => lenis.destroy() }, [])
   useEffect(() => { document.body.classList.toggle('is-loading', isLoading); return () => document.body.classList.remove('is-loading') }, [isLoading])
-  return <>{isLoading && <LoadingScreen onComplete={() => setIsLoading(false)} />}<main className="site"><div className="stage"><div className="dark-band care-band" /><div className="dark-band restore-band" />{images.map((item) => <img key={item.file} className={`asset image${item.file === 'plev-care-in-transit.svg' ? ' brand-wordmark' : ''}`} src={`/images/${item.file}`} alt="" loading={item.file === 'plev-care-in-transit.svg' ? 'eager' : 'lazy'} style={{ left: item.x, top: item.y, width: item.w, height: item.h, objectFit: item.fit }} />)}<BrandFilm /><AutoVideo src="/videos/motion-1-pingpong.mp4" x={20} y={6330} w={930} h={930} /><AutoVideo src="/videos/motion-2-pingpong.mp4" x={970} y={6330} w={930} h={930} /><AutoVideo src="/videos/motion-3.mp4" x={20} y={7280} w={1880} h={930} /><AutoVideo src="/videos/video-1.mp4" x={20} y={11020} w={1880} h={1058} /><AutoVideo src="/videos/ui-main-motion.mp4" x={20} y={12098} w={1880} h={1253} /><AutoVideo src="/videos/video-2.mp4" x={20} y={18388} w={1880} h={1058} /><RestoreCards /><AutoVideo src="/videos/ui-wide-motion.mp4" x={20} y={21959} w={1880} h={1200} /><AutoVideo src="/videos/plev-footer.mp4" x={0} y={27349} w={1920} h={1020} className="footer-video" /><div className="rule rule-connect" /><div className="rule rule-restore" /><div className="rule rule-additional" /><CareFlow />{copy.map((item, index) => <p key={index} className={`copy ${item.kind}`} style={{ left: item.x, top: item.y, width: item.w, color: item.color }}>{item.value}</p>)}</div></main><SectionNavigator lenisRef={lenisRef} /></>
+  return <>{isLoading && <LoadingScreen onComplete={() => setIsLoading(false)} />}<main className="site"><div className="stage"><div className="dark-band care-band" /><div className="dark-band restore-band" />{images.map((item) => <img key={item.file} className={`asset image${item.file === 'plev-care-in-transit.svg' ? ' brand-wordmark' : ''}`} src={`/images/${item.file}`} alt="" loading={item.file === 'plev-care-in-transit.svg' ? 'eager' : 'lazy'} style={{ left: item.x, top: item.y, width: item.w, height: item.h, objectFit: item.fit }} />)}<BrandFilm /><AutoVideo src="/videos/motion-1-pingpong.mp4" x={20} y={6330} w={930} h={930} /><AutoVideo src="/videos/motion-2-pingpong.mp4" x={970} y={6330} w={930} h={930} /><AutoVideo src="/videos/motion-3.mp4" x={20} y={7280} w={1880} h={930} /><AutoVideo src="/videos/video-1.mp4" x={20} y={11020} w={1880} h={1058} /><AutoVideo src="/videos/ui-main-motion.mp4" x={20} y={12098} w={1880} h={1253} /><AutoVideo src="/videos/ui-card-motion.mp4" x={20} y={13371} w={930} h={1200} /><AutoVideo src="/videos/video-2.mp4" x={20} y={18388} w={1880} h={1058} /><RestoreCards /><AutoVideo src="/videos/ui-wide-motion.mp4" x={20} y={21959} w={1880} h={1200} /><AutoVideo src="/videos/plev-footer.mp4" x={0} y={27349} w={1920} h={1020} className="footer-video" /><div className="rule rule-connect" /><div className="rule rule-restore" /><div className="rule rule-additional" /><CareFlow />{copy.map((item, index) => <p key={index} className={`copy ${item.kind}`} style={{ left: item.x, top: item.y, width: item.w, color: item.color }}>{item.value}</p>)}</div></main><SectionNavigator lenisRef={lenisRef} /></>
 }
 export default App

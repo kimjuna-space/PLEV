@@ -42,7 +42,25 @@ const copy = [
 ]
 
 function AutoVideo({ src, x, y, w, h, className = '' }) {
-  return <video className={`asset video ${className}`} style={{ left: x, top: y, width: w, height: h }} src={src} autoPlay muted loop playsInline preload="auto" />
+  const videoRef = useRef(null)
+
+  useEffect(() => {
+    const video = videoRef.current
+    if (!video) return undefined
+
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        video.play().catch(() => {})
+      } else {
+        video.pause()
+      }
+    }, { threshold: 0.1 })
+
+    observer.observe(video)
+    return () => observer.disconnect()
+  }, [])
+
+  return <video ref={videoRef} className={`asset video ${className}`} style={{ left: x, top: y, width: w, height: h }} src={src} muted loop playsInline preload="auto" />
 }
 function BrandFilm() {
   return <video className="asset video brand-film" style={{ left: 20, top: 260, width: 1880, height: 800 }} src="/videos/brand-film.mp4" poster="/images/brand-film-poster.webp" autoPlay muted loop playsInline preload="auto" />

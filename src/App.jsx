@@ -14,7 +14,7 @@ const images = [
   image('web-sw/restore-main.png', 20, 19466, 1880, 1253),
   image('web-sw/service-card-right.png', 970, 13371, 930, 1200),
   image('web-sw/transport-control.png', 20, 14591, 1880, 1600),
-  image('web-sw/additional-detail.png', 614, 24409, 1286, 1000),
+  image('web-sw/frame-2087331269.png', 0, 25814, 1920, 1080),
 ]
 const copy = [
   text('PROJECT',20,12,440,'meta','#111'),text('SCOPE',495,12,440,'meta','#111'),text('PLATFORMS',970,12,440,'meta','#111'),text('PERIOD',1445,12,440,'meta','#111'),
@@ -39,8 +39,6 @@ const copy = [
   text('02',975,17985,80,'number light','#e7e7e7'),text('원하는 방식으로 복귀',1207,17985,650,'lead light','#e7e7e7'),text('정비가 완료된 후, 사용자의 일정에 따라 PV5 원격 복귀와 직접 수령 중 원하는 과정을 선택할 수 있습니다. 상황에 맞는 복귀 방식을 제공하여 정비 이후의 과정까지 자연스럽게 연결합니다.',1207,18039,693,'body','#cfcfcf'),
   text('ADDITIONAL\nSERVICES',20,23621,700,'title light','#e7e7e7'),
   text('① 웨어러블 디바이스가 심한 충격을 감지하면 별도 접수 없이 이머전시 모델을 자동 출동시킵니다. 기기에서 도착 예정 시간 확인과 호출 취소가 가능합니다. ② 정비소의 위치와 영업시간, 입고 가능 여부를 확인하고 평점과 리뷰를 참고해 정비를 예약할 수 있으며, PV5가 운송 과정을 지원합니다.',614,23621,1286,'body-semibold light','#e7e7e7'),
-  text('①',20,24409,80,'number light','#e7e7e7'),text('웨어러블 기기를 통해 즉시\n요청하는 긴급 출동 서비스',119,24409,450,'lead light','#e7e7e7'),
-  text('②',20,24537,80,'number','#5a5a5a'),text('사용자 평가를 기반으로\n직접 선택하는 점검 예약',119,24537,450,'lead','#5a5a5a'),
 ]
 
 function AutoVideo({ src, x, y, w, h, className = '' }) {
@@ -85,7 +83,7 @@ function LoadingScreen({ onComplete }) {
   const [isLeaving, setIsLeaving] = useState(false)
   return <div className={`loading-screen${isLeaving ? ' is-leaving' : ''}`} role="status" aria-label="PLEV 로딩 중" onAnimationEnd={() => isLeaving && onComplete()}><video className="loading-motion" src="/videos/loading-motion.mp4" autoPlay muted playsInline preload="auto" onEnded={() => setIsLeaving(true)} onError={() => setIsLeaving(true)} /></div>
 }
-const sectionStops = [0,238,1308,2409,3849,5250,6310,7150,8405,9897,11009,12185,13431,14851,17268,18377,19518,20799,22019,23200]
+const sectionStops = [0,238,1308,2409,3849,5250,6310,7150,8405,9897,11009,12185,13431,14851,17268,18377,19518,20799,22019,23200,24389,25829,27289]
 function SectionNavigator({ lenisRef }) {
   const queued = useRef(null)
   const move = (direction) => {
@@ -127,6 +125,6 @@ function App() {
       activityEvents.forEach((eventName) => window.removeEventListener(eventName, returnToTopAfterInactivity))
     }
   }, [isLoading])
-  return <>{isLoading && <LoadingScreen onComplete={() => setIsLoading(false)} />}<main className="site"><div className="stage"><div className="dark-band care-band" /><div className="dark-band restore-band" />{images.map((item) => <img key={item.file} className={`asset image${item.file === 'plev-care-in-transit.svg' ? ' brand-wordmark' : ''}`} src={`/images/${item.file}`} alt="" loading={item.file === 'plev-care-in-transit.svg' ? 'eager' : 'lazy'} style={{ left: item.x, top: item.y, width: item.w, height: item.h, objectFit: item.fit }} />)}<BrandFilm /><AutoVideo src="/videos/motion-1-pingpong.mp4" x={20} y={6330} w={930} h={930} /><AutoVideo src="/videos/motion-2-pingpong.mp4" x={970} y={6330} w={930} h={930} /><AutoVideo src="/videos/motion-3.mp4" x={20} y={7280} w={1880} h={930} /><AutoVideo src="/videos/video-1.mp4" x={20} y={11020} w={1880} h={1058} /><AutoVideo src="/videos/ui-main-motion.mp4" x={20} y={12098} w={1880} h={1253} /><AutoVideo src="/videos/ui-card-motion.mp4" x={20} y={13371} w={930} h={1200} /><AutoVideo src="/videos/video-2.mp4" x={20} y={18388} w={1880} h={1058} /><RestoreCards /><AutoVideo src="/videos/ui-wide-motion.mp4" x={20} y={21959} w={1880} h={1200} /><AutoVideo src="/videos/plev-footer.mp4" x={0} y={27349} w={1920} h={1020} className="footer-video" /><div className="rule rule-connect" /><div className="rule rule-restore" /><div className="rule rule-additional" /><CareFlow />{copy.map((item, index) => <p key={index} className={`copy ${item.kind}`} style={{ left: item.x, top: item.y, width: item.w, color: item.color }}>{item.value}</p>)}</div></main><SectionNavigator lenisRef={lenisRef} /></>
+  return <>{isLoading && <LoadingScreen onComplete={() => setIsLoading(false)} />}<main className="site"><div className="stage"><div className="dark-band care-band" /><div className="dark-band restore-band" />{images.map((item) => <img key={item.file} className={`asset image${item.file === 'plev-care-in-transit.svg' ? ' brand-wordmark' : ''}`} src={`/images/${item.file}`} alt="" loading={item.file === 'plev-care-in-transit.svg' ? 'eager' : 'lazy'} style={{ left: item.x, top: item.y, width: item.w, height: item.h, objectFit: item.fit }} />)}<BrandFilm /><AutoVideo src="/videos/motion-1-pingpong.mp4" x={20} y={6330} w={930} h={930} /><AutoVideo src="/videos/motion-2-pingpong.mp4" x={970} y={6330} w={930} h={930} /><AutoVideo src="/videos/motion-3.mp4" x={20} y={7280} w={1880} h={930} /><AutoVideo src="/videos/video-1.mp4" x={20} y={11020} w={1880} h={1058} /><AutoVideo src="/videos/ui-main-motion.mp4" x={20} y={12098} w={1880} h={1253} /><AutoVideo src="/videos/ui-card-motion.mp4" x={20} y={13371} w={930} h={1200} /><AutoVideo src="/videos/video-2.mp4" x={20} y={18388} w={1880} h={1058} /><RestoreCards /><AutoVideo src="/videos/ui-wide-motion.mp4" x={20} y={21959} w={1880} h={1200} /><AutoVideo src="/videos/additional-bottom-motion.mp4" x={0} y={24389} w={1920} h={1005} /><AutoVideo src="/videos/plev-footer.mp4" x={0} y={27334} w={1920} h={1020} className="footer-video" /><div className="rule rule-connect" /><div className="rule rule-restore" /><div className="rule rule-additional" /><CareFlow />{copy.map((item, index) => <p key={index} className={`copy ${item.kind}`} style={{ left: item.x, top: item.y, width: item.w, color: item.color }}>{item.value}</p>)}</div></main><SectionNavigator lenisRef={lenisRef} /></>
 }
 export default App

@@ -113,7 +113,7 @@ function SectionNavigator({ lenisRef }) {
     queued.current = targetIndex
     lenisRef.current?.scrollTo(sectionStops[targetIndex] * scale, { duration: 1.2, easing: (t) => 1 - Math.pow(1 - t, 4), onComplete: () => { queued.current = null } })
   }
-  return <nav className="section-navigator" aria-label="섹션 이동"><button type="button" aria-label="이전 섹션" onClick={() => move('up')}>↑</button><button type="button" aria-label="다음 섹션" onClick={() => move('down')}>↓</button></nav>
+  return <nav className="section-navigator" aria-label="섹션 이동"><button type="button" aria-label="이전 섹션" onClick={() => move('up')}><img src="/images/nav-arrow-up.png" alt="" /></button><button type="button" aria-label="다음 섹션" onClick={() => move('down')}><img src="/images/nav-arrow-down.png" alt="" /></button></nav>
 }
 function App() {
   const [isLoading, setIsLoading] = useState(true)

@@ -102,10 +102,9 @@ function LoadingScreen({ onComplete }) {
   return <div className={`loading-screen${isLeaving ? ' is-leaving' : ''}`} role="status" aria-label="PLEV 로딩 중" onAnimationEnd={() => isLeaving && onComplete()}><video className="loading-motion" src="/videos/loading-motion.mp4" autoPlay muted playsInline preload="auto" onEnded={() => setIsLeaving(true)} onError={() => setIsLeaving(true)} /></div>
 }
 const sectionStops = [0,238,1308,2409,3849,5250,6310,7150,8405,9897,11009,12185,13431,14851,17268,18377,19518,20799,22019,23200,24339,25829,27289]
-function SectionNavigator({ lenisRef, stopAutoScrollRef }) {
+function SectionNavigator({ lenisRef }) {
   const queued = useRef(null)
   const move = (direction) => {
-    stopAutoScrollRef.current()
     const scale = window.innerWidth / 1920
     const current = window.scrollY / scale
     const fallback = direction === 'down' ? sectionStops.findIndex((point) => point > current + 12) : sectionStops.findLastIndex((point) => point < current - 12)
@@ -137,64 +136,31 @@ function SectionNavigator({ lenisRef, stopAutoScrollRef }) {
 function App() {
   const [isLoading, setIsLoading] = useState(true)
   const lenisRef = useRef(null)
-  const stopAutoScrollRef = useRef(() => {})
   useEffect(() => { const lenis = new Lenis({ autoRaf: true, lerp: 0.085, smoothWheel: true, wheelMultiplier: 0.9, respectReducedMotion: false }); lenisRef.current = lenis; return () => lenis.destroy() }, [])
   useEffect(() => { document.body.classList.toggle('is-loading', isLoading); return () => document.body.classList.remove('is-loading') }, [isLoading])
   useEffect(() => {
     if (isLoading) return undefined
 
     let inactivityTimer
-    let loopTimer
-    let autoScrolling = false
-
-    const stopAutoScroll = () => {
-      if (!autoScrolling) return
-      autoScrolling = false
-      window.clearTimeout(loopTimer)
-      lenisRef.current?.scrollTo(window.scrollY, { immediate: true })
-    }
-
-    const startAutoScroll = () => {
-      if (!autoScrolling) return
-
-      lenisRef.current?.scrollTo('bottom', {
-        duration: 70,
-        easing: (t) => t,
-        onComplete: () => {
-          if (!autoScrolling) return
-          lenisRef.current?.scrollTo(0, { immediate: true })
-          loopTimer = window.setTimeout(startAutoScroll, 600)
-        },
-      })
-    }
-
-    const startAutoMode = () => {
-      autoScrolling = true
-      lenisRef.current?.scrollTo(0, {
-        duration: 1.2,
-        easing: (t) => 1 - Math.pow(1 - t, 4),
-        onComplete: startAutoScroll,
-      })
-    }
-
-    const resetInactivityTimer = () => {
-      stopAutoScroll()
+    const returnToTopAfterInactivity = () => {
       window.clearTimeout(inactivityTimer)
-      inactivityTimer = window.setTimeout(startAutoMode, 30000)
+      inactivityTimer = window.setTimeout(() => {
+        lenisRef.current?.scrollTo(0, {
+          duration: 1.2,
+          easing: (t) => 1 - Math.pow(1 - t, 4),
+        })
+      }, 30000)
     }
 
-    stopAutoScrollRef.current = stopAutoScroll
     const activityEvents = ['keydown', 'wheel', 'pointermove', 'pointerdown', 'touchstart']
-    activityEvents.forEach((eventName) => window.addEventListener(eventName, resetInactivityTimer, { passive: true }))
-    resetInactivityTimer()
+    activityEvents.forEach((eventName) => window.addEventListener(eventName, returnToTopAfterInactivity, { passive: true }))
+    returnToTopAfterInactivity()
 
     return () => {
       window.clearTimeout(inactivityTimer)
-      window.clearTimeout(loopTimer)
-      stopAutoScrollRef.current = () => {}
-      activityEvents.forEach((eventName) => window.removeEventListener(eventName, resetInactivityTimer))
+      activityEvents.forEach((eventName) => window.removeEventListener(eventName, returnToTopAfterInactivity))
     }
   }, [isLoading])
-  return <>{isLoading && <LoadingScreen onComplete={() => setIsLoading(false)} />}<main className="site"><div className="stage"><div className="dark-band care-band" /><div className="dark-band restore-band" />{images.map((item) => <img key={item.file} className={`asset image${item.file === 'plev-care-in-transit.svg' ? ' brand-wordmark' : ''}`} src={`/images/${item.file}`} alt="" loading={item.file === 'plev-care-in-transit.svg' ? 'eager' : 'lazy'} style={{ left: item.x, top: item.y, width: item.w, height: item.h, objectFit: item.fit }} />)}<BrandFilm /><AutoVideo src="/videos/motion-1-pingpong.mp4" x={20} y={6330} w={930} h={930} /><AutoVideo src="/videos/motion-2-pingpong.mp4" x={970} y={6330} w={930} h={930} /><AutoVideo src="/videos/motion-3.mp4" x={20} y={7280} w={1880} h={930} /><AutoVideo src="/videos/video-1.mp4" x={20} y={11020} w={1880} h={1058} /><AutoVideo src="/videos/ui-main-motion.mp4" x={20} y={12098} w={1880} h={1253} /><AutoVideo src="/videos/ui-card-motion.mp4" x={20} y={13371} w={930} h={1200} /><AutoVideo src="/videos/video-2.mp4" x={20} y={18388} w={1880} h={1058} /><RestoreCards /><AutoVideo src="/videos/ui-wide-motion.mp4" x={20} y={21959} w={1880} h={1200} /><AutoVideo src="/videos/additional-bottom-motion.mp4" x={0} y={24389} w={1920} h={1005} /><AutoVideo src="/videos/plev-footer.mp4" x={0} y={27334} w={1920} h={1020} className="footer-video" /><div className="rule rule-connect" /><div className="rule rule-restore" /><div className="rule rule-additional" /><CareFlow />{copy.map((item, index) => <p key={index} className={`copy ${item.kind}`} style={{ left: item.x, top: item.y, width: item.w, color: item.color }}>{item.value}</p>)}</div></main><SectionNavigator lenisRef={lenisRef} stopAutoScrollRef={stopAutoScrollRef} /></>
+  return <>{isLoading && <LoadingScreen onComplete={() => setIsLoading(false)} />}<main className="site"><div className="stage"><div className="dark-band care-band" /><div className="dark-band restore-band" />{images.map((item) => <img key={item.file} className={`asset image${item.file === 'plev-care-in-transit.svg' ? ' brand-wordmark' : ''}`} src={`/images/${item.file}`} alt="" loading={item.file === 'plev-care-in-transit.svg' ? 'eager' : 'lazy'} style={{ left: item.x, top: item.y, width: item.w, height: item.h, objectFit: item.fit }} />)}<BrandFilm /><AutoVideo src="/videos/motion-1-pingpong.mp4" x={20} y={6330} w={930} h={930} /><AutoVideo src="/videos/motion-2-pingpong.mp4" x={970} y={6330} w={930} h={930} /><AutoVideo src="/videos/motion-3.mp4" x={20} y={7280} w={1880} h={930} /><AutoVideo src="/videos/video-1.mp4" x={20} y={11020} w={1880} h={1058} /><AutoVideo src="/videos/ui-main-motion.mp4" x={20} y={12098} w={1880} h={1253} /><AutoVideo src="/videos/ui-card-motion.mp4" x={20} y={13371} w={930} h={1200} /><AutoVideo src="/videos/video-2.mp4" x={20} y={18388} w={1880} h={1058} /><RestoreCards /><AutoVideo src="/videos/ui-wide-motion.mp4" x={20} y={21959} w={1880} h={1200} /><AutoVideo src="/videos/additional-bottom-motion.mp4" x={0} y={24389} w={1920} h={1005} /><AutoVideo src="/videos/plev-footer.mp4" x={0} y={27334} w={1920} h={1020} className="footer-video" /><div className="rule rule-connect" /><div className="rule rule-restore" /><div className="rule rule-additional" /><CareFlow />{copy.map((item, index) => <p key={index} className={`copy ${item.kind}`} style={{ left: item.x, top: item.y, width: item.w, color: item.color }}>{item.value}</p>)}</div></main><SectionNavigator lenisRef={lenisRef} /></>
 }
 export default App

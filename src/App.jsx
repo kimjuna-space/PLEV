@@ -145,6 +145,16 @@ function App() {
     const returnToTopAfterInactivity = () => {
       window.clearTimeout(inactivityTimer)
       inactivityTimer = window.setTimeout(() => {
+        const hasVisibleVideo = [...document.querySelectorAll('video.video')].some((video) => {
+          const bounds = video.getBoundingClientRect()
+          return bounds.bottom > window.innerHeight * 0.1 && bounds.top < window.innerHeight * 0.9
+        })
+
+        if (hasVisibleVideo) {
+          returnToTopAfterInactivity()
+          return
+        }
+
         lenisRef.current?.scrollTo(0, {
           duration: 1.2,
           easing: (t) => 1 - Math.pow(1 - t, 4),
